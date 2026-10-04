@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+left to right direction
+actor Estudiante
+rectangle "Sistema académico" {
+  usecase "Consultar entrega" as UC1
+  usecase "Autenticarse" as UC2
+}
+Estudiante --> UC1
+UC1 ..> UC2 : <<include>>
+@enduml

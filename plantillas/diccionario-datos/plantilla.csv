@@ -1,0 +1,2 @@
+elemento,descripcion,tipo,longitud,obligatorio,clave,reglas,origen
+ejemplo_id,Identificador del ejemplo,entero,,si,PK,Mayor que cero,Ejemplo técnico

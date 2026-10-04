@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+object Estudiante
+object Interfaz
+object Servicio
+object Repositorio
+Estudiante --> Interfaz : 1: solicitarConsulta()
+Interfaz --> Servicio : 1.1: consultar(id)
+Servicio --> Repositorio : 1.1.1: buscar(id)
+Repositorio --> Servicio : 1.1.2: entrega
+Servicio --> Interfaz : 1.2: resultado
+@enduml

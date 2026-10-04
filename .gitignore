@@ -1,0 +1,32 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+
+# Dependencias y entornos locales
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Herramientas descargadas y cachés
+herramientas-locales/
+.cache/
+
+# Archivos temporales y del sistema
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+.vscode/settings.json
+
+# Exportaciones regenerables de prueba
+pruebas/salida/*
+!pruebas/salida/.gitkeep

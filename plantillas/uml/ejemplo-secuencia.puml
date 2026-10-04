@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+actor Estudiante
+participant "Interfaz" as UI
+participant "Servicio" as S
+database "Repositorio" as R
+Estudiante -> UI : solicitarConsulta()
+UI -> S : consultar(id)
+S -> R : buscar(id)
+R --> S : entrega
+S --> UI : resultado
+UI --> Estudiante : mostrarResultado()
+@enduml

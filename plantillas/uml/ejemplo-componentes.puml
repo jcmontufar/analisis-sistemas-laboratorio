@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+component Interfaz
+component Servicio
+database Datos
+Interfaz --> Servicio : consulta
+Servicio --> Datos : persistencia
+@enduml

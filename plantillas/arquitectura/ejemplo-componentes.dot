@@ -1,0 +1,9 @@
+digraph arquitectura {
+  rankdir=LR;
+  node [shape=box, style="rounded"];
+  usuario [label="Usuario"];
+  interfaz [label="Interfaz"];
+  servicio [label="Servicio"];
+  datos [label="Datos", shape=cylinder];
+  usuario -> interfaz -> servicio -> datos;
+}

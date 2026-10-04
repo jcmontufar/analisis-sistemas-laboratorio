@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+class Estudiante {
+  -id: Integer
+  -nombre: String
+  +consultarEntrega(): Entrega
+}
+class Entrega {
+  -id: Integer
+  -fecha: DateTime
+}
+Estudiante "1" -- "0..*" Entrega : realiza
+@enduml

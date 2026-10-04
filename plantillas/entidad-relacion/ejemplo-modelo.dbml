@@ -1,0 +1,13 @@
+Table estudiante {
+  id integer [pk, increment]
+  nombre varchar(120) [not null]
+  correo varchar(180) [not null, unique]
+}
+
+Table entrega {
+  id integer [pk, increment]
+  estudiante_id integer [not null]
+  fecha datetime [not null]
+}
+
+Ref: estudiante.id < entrega.estudiante_id

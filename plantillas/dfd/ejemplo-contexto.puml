@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+title Ejemplo técnico — DFD de contexto
+left to right direction
+rectangle "Entidad externa\nEstudiante" as E
+circle "0\nSistema académico" as P
+E --> P : Solicitud de consulta
+P --> E : Resultado de consulta
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+start
+:Recibir solicitud;
+if (¿Está completa?) then (sí)
+  :Registrar resultado;
+else (no)
+  :Solicitar corrección;
+endif
+stop
+@enduml
