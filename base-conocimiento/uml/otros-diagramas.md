@@ -1,6 +1,6 @@
 # Otros diagramas UML
 
-> Fuente académica pendiente. Contenido complementario general.
+> Reglas académicas y convenciones: `reglas-integradas.md`.
 
 ## Propósito y tipos
 
@@ -23,4 +23,4 @@ Usar un diagrama por decoración, mezclar niveles de abstracción o duplicar inf
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, “Anexos”; ejemplos PNG 13, 16 y 18.

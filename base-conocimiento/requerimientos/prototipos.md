@@ -1,6 +1,6 @@
 # Prototipos
 
-> Fuente académica pendiente. Contenido complementario general.
+> Regla DERCAS y vacíos: `dercas-y-prototipos.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Tratar el prototipo como especificación completa o diseñar pantallas sin escen
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, “Prototipo”; PPTX, diap. 8.

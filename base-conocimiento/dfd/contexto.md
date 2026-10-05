@@ -1,6 +1,6 @@
 # DFD de contexto
 
-> Fuente académica pendiente. Se aplican las reglas del encargo y conocimiento complementario.
+> Reglas académicas y alertas consolidadas: `reglas-integradas.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Incluir almacenes internos, representar control en vez de datos o dejar flujos s
 
 ## Fuente académica
 
-Pendiente de material y página; Kendall y Kendall se prioriza solo si el ejercicio lo solicita.
+Instrucciones DERCAS, “DFD Contexto”; PPTX, diap. 8; ejemplo PNG 14. Kendall y Kendall se prioriza solo si el ejercicio lo solicita.

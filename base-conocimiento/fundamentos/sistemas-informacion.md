@@ -1,6 +1,6 @@
 # Sistemas de información
 
-> Estado de fuente académica: pendiente de incorporar los materiales del curso. Lo siguiente es información técnica complementaria.
+> Base académica incorporada; véase también `ciclo-vida-y-metodos.md`.
 
 ## Definición y propósito
 
@@ -21,4 +21,4 @@ Confundir el sistema de información con el software solamente o modelar sin lí
 
 ## Fuente académica
 
-Pendiente. No se atribuye esta definición al catedrático.
+`02-Systems_Architecture_Foundations.pdf`, págs. 2–6; PNG 01 y 04.

@@ -1,6 +1,6 @@
 # DFD de nivel cero
 
-> Fuente académica pendiente. Se aplican las reglas del encargo y conocimiento complementario.
+> Reglas académicas y alertas consolidadas: `reglas-integradas.md`.
 
 ## Definición y propósito
 
@@ -12,7 +12,7 @@ Numerar procesos, nombrarlos con verbo y objeto, balancear flujos externos y evi
 
 ## Ejemplos disponibles
 
-No hay ejemplo de nivel cero todavía; se añadirá tras contrastar la notación académica.
+`material-didactico/originales/17-DiagramaDFDNivel0.png`.
 
 ## Errores frecuentes
 
@@ -20,4 +20,4 @@ Pérdida o aparición injustificada de flujos respecto al contexto, procesos “
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, “DFD Nivel 0”; PPTX, diap. 8; ejemplo PNG 17.

@@ -6,13 +6,18 @@ Este repositorio es un laboratorio académico de análisis y diseño de sistemas
 
 ## Flujo obligatorio
 
-1. Leer el enunciado original del ejercicio.
-2. Consultar primero `material-didactico/indice.md` y las referencias pertinentes de `base-conocimiento/`.
-3. Separar las reglas explícitas del catedrático de las convenciones técnicas complementarias.
-4. Registrar datos faltantes y suposiciones mínimas en `analisis.md`; no inventar información que cambie la solución.
-5. Mantener coherencia de nombres, actores, procesos, datos y relaciones entre todos los artefactos.
-6. Conservar fuentes editables en `diagramas/fuentes/` y exportaciones completas y legibles en `diagramas/exportados/`.
-7. Ejecutar `python scripts/validacion/validar_proyecto.py` y completar la revisión manual de `validacion.md`.
+1. Leer primero el enunciado original del ejercicio y registrar sus entregables.
+2. Identificar las fuentes académicas pertinentes mediante `material-didactico/indice.md`; citar archivo y página, diapositiva o sección.
+3. Consultar las reglas y matrices pertinentes de `base-conocimiento/`.
+4. Separar reglas explícitas del catedrático de convenciones técnicas complementarias.
+5. Elaborar el análisis lógico en `analisis.md` antes de dibujar; registrar datos faltantes y suposiciones mínimas sin inventar información que cambie la solución.
+6. Mantener coherencia de nombres, actores, procesos, datos y relaciones entre artefactos.
+7. Generar y conservar la fuente editable en `diagramas/fuentes/`.
+8. Exportar diagramas completos y legibles a SVG y PNG en `diagramas/exportados/`, cuando corresponda.
+9. Verificar sintaxis, estructura, referencias cruzadas y, en proporción al riesgo, el renderizado.
+10. Registrar en `validacion.md` qué se comprobó automáticamente, qué requiere revisión humana y toda limitación.
+11. Conservar en la carpeta del ejercicio el enunciado, análisis, solución, validación, fuentes, exportaciones y documentos.
+12. Ejecutar `python scripts/validacion/validar_proyecto.py` antes de entregar.
 
 ## Reglas generales de modelado
 
@@ -57,7 +62,15 @@ Este repositorio es un laboratorio académico de análisis y diseño de sistemas
 
 - Identificar entidades, atributos, claves, cardinalidades y relaciones documentadas.
 - Evitar redundancias injustificadas.
-- No imponer cantidades mínimas de tablas salvo exigencia expresa del enunciado.
+- No imponer cantidades mínimas de tablas salvo exigencia expresa del enunciado. En DERCAS sí rige el mínimo académico de 40 tablas.
+
+## Jerarquía de evidencia
+
+- El enunciado particular gobierna el ejercicio.
+- Después se aplican las exigencias académicas citadas en la base de conocimiento.
+- Las convenciones técnicas complementarias llenan vacíos sin atribuirse al catedrático.
+- Un PNG de ejemplo puede contener defectos: no convertir su apariencia en regla sin respaldo textual.
+- Ante una contradicción material, documentarla y solicitar criterio; no alterar originales ni ocultar la diferencia.
 
 ## Seguridad y Git
 

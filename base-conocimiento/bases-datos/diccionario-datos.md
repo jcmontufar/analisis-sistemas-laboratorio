@@ -1,6 +1,6 @@
 # Diccionario de datos
 
-> Fuente académica pendiente. Contenido complementario general.
+> Síntesis y reglas DERCAS: `modelado-y-diccionario.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Definiciones circulares, tipos incompatibles entre artefactos y campos sin prop�
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, secciones “Diccionario de datos” y “Anexos”; PPTX, diap. 8.

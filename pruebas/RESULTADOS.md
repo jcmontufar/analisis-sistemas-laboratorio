@@ -14,8 +14,8 @@ Fecha: 4 de octubre de 2026.
 | Documentos | Éxito: Markdown, CSV, DOCX, XLSX, PDF, PNG y SVG creados y reabiertos | `scripts/validacion/probar-formatos.py` |
 | Integridad del proyecto | Éxito: 0 errores y 0 avisos | `scripts/validacion/validar_proyecto.py` |
 | Seguridad npm | Éxito: 0 vulnerabilidades informadas | `npm audit --audit-level=moderate` |
-| Material didáctico | Pendiente: 0 de 22 archivos disponibles | `scripts/validacion/inventariar_material.py` |
-| GitHub | Bloqueado por autenticación: CLI portátil disponible, sin sesión | `scripts/instalacion/gh-local.ps1 auth status` |
+| Material didáctico | Éxito: 22/22, SHA-256 conforme, formatos correctos, 0 duplicados y 0 ilegibles | `scripts/validacion/inventariar_material.py` |
+| GitHub | Éxito: autenticado; repositorio `PRIVATE`, rama predeterminada `main` | `scripts/instalacion/gh-local.ps1 auth status` y `repo view` |
 
 ## Incidencias corregidas
 
@@ -25,5 +25,5 @@ La primera prueba por lote reveló que los generadores PowerShell duplicaban la 
 
 - `dot` y Pandoc no están instalados globalmente.
 - PlantUML usa Smetana y DOT independiente usa Viz.js; no se cambió `PATH`.
-- La corrección conceptual sigue requiriendo revisión humana contra el enunciado y los materiales académicos.
+- La corrección conceptual sigue requiriendo revisión humana contra el enunciado y los materiales académicos; los PDF/PPTX incorporados son rasterizados.
 - Las salidas de prueba son regenerables y se excluyen de Git; las fuentes, scripts e informe sí se versionan.

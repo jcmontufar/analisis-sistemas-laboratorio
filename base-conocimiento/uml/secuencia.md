@@ -1,6 +1,6 @@
 # UML de secuencia
 
-> Fuente académica pendiente. Contenido complementario y reglas del encargo.
+> Reglas académicas y convenciones: `reglas-integradas.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Mensajes sin operación significativa, participantes inconsistentes con clases o
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, “Anexos”; ejemplos PNG 15 y 19.

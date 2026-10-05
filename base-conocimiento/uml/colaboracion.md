@@ -1,6 +1,6 @@
 # UML de comunicación o colaboración
 
-> Fuente académica pendiente. Contenido complementario y reglas del encargo.
+> Reglas académicas y convenciones: `reglas-integradas.md`.
 
 ## Definición y propósito
 
@@ -12,7 +12,7 @@ Participantes, enlaces, mensajes numerados y condiciones. Debe conservar los mis
 
 ## Ejemplos disponibles
 
-No hay ejemplo gráfico todavía; se incorporará después de verificar la convención exigida por el curso.
+`material-didactico/originales/15-DiagramaUMLSecuenciaColaboracion.png`.
 
 ## Errores frecuentes
 
@@ -20,4 +20,4 @@ Mensajes sin numeración jerárquica o contradicción con el orden del diagrama 
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, “Anexos”; ejemplo PNG 15.

@@ -1,6 +1,6 @@
 # Listados de pasos
 
-> Fuente académica pendiente. Contenido complementario general.
+> Reglas y ejemplos consolidados: `modelado-integrado.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Combinar varias decisiones en un paso, omitir quién actúa o mezclar resultado 
 
 ## Fuente académica
 
-Pendiente de material y página.
+`05-Requirements_Engineering.pdf`, pág. 13; instrucciones DERCAS, “Procesos a automatizar”; PNG 10.

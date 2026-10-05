@@ -1,6 +1,6 @@
 # Diagrama entidad-relación
 
-> Fuente académica pendiente. Contenido complementario general.
+> Síntesis y reglas DERCAS: `modelado-y-diccionario.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Confundir una clase de dominio con una tabla, omitir claves o introducir redunda
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, sección “Entidad Relación”; PPTX, diap. 8. El mínimo de 40 tablas solo aplica a DERCAS.

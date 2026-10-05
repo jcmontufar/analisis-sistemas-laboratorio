@@ -1,6 +1,6 @@
 # UML de casos de uso
 
-> Fuente académica pendiente. Contenido complementario y reglas del encargo.
+> Reglas académicas y convenciones: `reglas-integradas.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Modelar pantallas, llamar “actor” a una parte interna o invertir dependencia
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, “Anexos”; PNG 11 y 12 como ejemplos con revisión crítica.

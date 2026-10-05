@@ -1,6 +1,6 @@
 # Factibilidad técnica, operativa y económica
 
-> Fuente académica pendiente. Contenido complementario general.
+> Reglas académicas detalladas: `criterios-dercas.md`.
 
 ## Definición y propósito
 
@@ -23,4 +23,4 @@ Declarar “factible” sin criterios, omitir costos recurrentes o mezclar prefe
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, “Factibilidad”; PPTX, diap. 9.

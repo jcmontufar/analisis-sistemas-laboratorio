@@ -1,6 +1,6 @@
 # Arquitectura y stack tecnológico
 
-> Fuente académica pendiente. Contenido complementario general.
+> Síntesis ampliada y fuentes exactas: `diseno-y-despliegue.md`. Las reglas no citadas aquí son complementarias.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Presentar una lista de marcas como arquitectura o introducir tecnología sin rel
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, secciones “Stack” y “Anexos”; PPTX DERCAS, diap. 8; ejemplos PNG 12 y 13.

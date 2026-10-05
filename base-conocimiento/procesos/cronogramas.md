@@ -1,6 +1,6 @@
 # Cronogramas de actividades
 
-> Fuente académica pendiente. Contenido complementario general.
+> Reglas DERCAS y fuentes: `modelado-integrado.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Actividades sin resultado verificable, dependencias ausentes o fechas sin supues
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, “Cronograma”; PPTX, diap. 10.

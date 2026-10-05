@@ -1,6 +1,6 @@
 # Ingeniería de requerimientos
 
-> Fuente académica pendiente. Contenido complementario general.
+> Desarrollo académico completo: `levantamiento-y-especificacion.md`.
 
 ## Definición y propósito
 
@@ -21,4 +21,4 @@ Confundir una solución anticipada con una necesidad, usar términos ambiguos o 
 
 ## Fuente académica
 
-Pendiente de material y página.
+`05-Requirements_Engineering.pdf`, págs. 2–15; instrucciones DERCAS, “Ingeniería de Requerimientos”; PNG 06–08.

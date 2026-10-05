@@ -1,6 +1,6 @@
 # UML de clases
 
-> Fuente académica pendiente. Contenido complementario y reglas del encargo.
+> Reglas académicas y convenciones: `reglas-integradas.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Copiar tablas como clases sin intención, omitir multiplicidades o abusar de com
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, “Anexos”: correspondencia exacta con ER. No se suministró ejemplo visual.

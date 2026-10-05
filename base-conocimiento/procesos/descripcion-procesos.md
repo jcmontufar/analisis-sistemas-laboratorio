@@ -1,6 +1,6 @@
 # Descripción técnica de procesos
 
-> Fuente académica pendiente. Contenido complementario general.
+> Reglas y ejemplos consolidados: `modelado-integrado.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Pasos ambiguos, saltos lógicos, responsables implícitos y excepciones sin trat
 
 ## Fuente académica
 
-Pendiente de material y página.
+`05-Requirements_Engineering.pdf`, págs. 12–13; instrucciones DERCAS, “Procesos a automatizar”; PNG 09.

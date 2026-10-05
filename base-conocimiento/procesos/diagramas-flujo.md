@@ -1,6 +1,6 @@
 # Diagramas de flujo
 
-> Fuente académica pendiente. Contenido complementario general.
+> Reglas y ejemplos consolidados: `modelado-integrado.md`.
 
 ## Definición y propósito
 
@@ -20,4 +20,4 @@ Decisiones con una sola salida, flechas sin dirección, cruces excesivos y activ
 
 ## Fuente académica
 
-Pendiente de material y página.
+Instrucciones DERCAS, “Procesos a automatizar”; PPTX, diap. 7; PNG 16.
