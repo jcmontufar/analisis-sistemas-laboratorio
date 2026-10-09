@@ -1,0 +1,397 @@
+{
+  "archivos": [
+    {
+      "hash": "9A0E11414874D41BE492C196FE3285DE2C3532998D94090CC0B1048B1E0EEA55",
+      "path": "README.md"
+    },
+    {
+      "hash": "153E2A4C4B7B7DB23EC8CA3E6326C13C758E29F9484EDF787F33E3765ECA0650",
+      "path": "analisis/ANALISIS.md"
+    },
+    {
+      "hash": "659D438D8007E782FC1326E44227AB6451B10E0A3EC0522FAED360C0D83A2CE9",
+      "path": "analisis/FUENTES.md"
+    },
+    {
+      "hash": "D615BC16899A2CF493A48A2108C0E85456BFEBBCFC034E8DE29FF988585846B7",
+      "path": "analisis/SUPOSICIONES.md"
+    },
+    {
+      "hash": "292084A3261A2E511608AF65E75CC06CEA743B2D82D42E52C3D7B6ADD6B2B0DE",
+      "path": "diagramas/exportados/01-stack-tecnologias.pdf"
+    },
+    {
+      "hash": "7C2BFDFBD23F1ADB739EFEDE22593E8F08005F6A0DB72E7BEEE3D6FB24FF59B8",
+      "path": "diagramas/exportados/01-stack-tecnologias.png"
+    },
+    {
+      "hash": "597FA2CFDF9FB5AE2E231620A8995EC92E43975E2AED304B9787D2EF99522E7E",
+      "path": "diagramas/exportados/01-stack-tecnologias.svg"
+    },
+    {
+      "hash": "F4E276AAF36A757FF762DE2542A304C33D99F84FDE448C45BB24DF1E3CB0ABB6",
+      "path": "diagramas/exportados/02-dfd-contexto.pdf"
+    },
+    {
+      "hash": "4FF1FC63C77E5D6A6F1B3914725C70A59D808F7A098636308F1512C53BEB6EFC",
+      "path": "diagramas/exportados/02-dfd-contexto.png"
+    },
+    {
+      "hash": "AEB8913802264B47CF5C3EC90C8AA49D8A906B28ACD63E5068919C94F846CB67",
+      "path": "diagramas/exportados/02-dfd-contexto.svg"
+    },
+    {
+      "hash": "F17178E99C75142F4BBF851258BC383CAACF53891690FB52EBE8524A5C9ACDB3",
+      "path": "diagramas/exportados/03-dfd-nivel-0.pdf"
+    },
+    {
+      "hash": "D6B24FE8A006FB396BAC5B77635C5D5BB1CB541A1CA2610D13C28059407FDFC2",
+      "path": "diagramas/exportados/03-dfd-nivel-0.png"
+    },
+    {
+      "hash": "C7183B7E9E06D81BC73F78C09AC690AD136D87BF8B1143F931B8170FA6C3D3DE",
+      "path": "diagramas/exportados/03-dfd-nivel-0.svg"
+    },
+    {
+      "hash": "A6E8C884C2B7A5B7390FD2071EA5CBD4E005C0D0A280E9BEF1FD6255A559A591",
+      "path": "diagramas/exportados/04-casos-uso.pdf"
+    },
+    {
+      "hash": "E1B9DFA89B0ED1D5ECE1E33E7BCDEC8F40F7801B7E96F9E4DC4B5EBE583BACCB",
+      "path": "diagramas/exportados/04-casos-uso.png"
+    },
+    {
+      "hash": "EA3FD1A446E27C4C6F03626B064C162EB48CEB297B21FBD49512AA6E965CB40C",
+      "path": "diagramas/exportados/04-casos-uso.svg"
+    },
+    {
+      "hash": "086CD76327F989E6B44F52D394DA22B36AB7766A53A2051A878CEF52A4F76165",
+      "path": "diagramas/exportados/05-secuencia.pdf"
+    },
+    {
+      "hash": "B6E6BC414685B663E31A9B5C61A36A53B83D1A99E16D3AFA16BF30FD8F664048",
+      "path": "diagramas/exportados/05-secuencia.png"
+    },
+    {
+      "hash": "33779DF0E7309F6797F8A77491836629C2A8BF532C3EA9DF1D8F7AD1908BD100",
+      "path": "diagramas/exportados/05-secuencia.svg"
+    },
+    {
+      "hash": "20B6488A8DF5D279F513D7EF91206BEB2CD504BF823E046E330A090B69D85ADD",
+      "path": "diagramas/exportados/06-colaboracion.pdf"
+    },
+    {
+      "hash": "767681A5A6E4D927D16BC493AE3D16EAFCD3C8A190B47D2D4A701210357B32C3",
+      "path": "diagramas/exportados/06-colaboracion.png"
+    },
+    {
+      "hash": "F55C4E7DAD537A31B9DC3C6B25BF7F9C9C666432E496B4E580EFB4368DE3B579",
+      "path": "diagramas/exportados/06-colaboracion.svg"
+    },
+    {
+      "hash": "859865219EAADD5CDA3D74FADF65D734A8D0BFD2880579582E5D2C9722A63C21",
+      "path": "diagramas/fuentes/01-stack-tecnologias.drawio"
+    },
+    {
+      "hash": "3F1AB42420FE634778AF64CEF0BBCD8F4300F58A85F3846977A0A6CFCE544F10",
+      "path": "diagramas/fuentes/02-dfd-contexto.drawio"
+    },
+    {
+      "hash": "193EFC6A975B306627C5E4A9BB7604B5EFDF9744137F1D13AC27AB2500523291",
+      "path": "diagramas/fuentes/03-dfd-nivel-0.drawio"
+    },
+    {
+      "hash": "7B71CABC8026E126BD51B19EE3F8F3E4CD8E4BECE0A03CA6E40584A2FE20F5C0",
+      "path": "diagramas/fuentes/04-casos-uso.drawio"
+    },
+    {
+      "hash": "461F15D62AD60B5013CD5C0DECEFDBCC73BC10E750A2597FEAC8AA3291278EE4",
+      "path": "diagramas/fuentes/05-secuencia.drawio"
+    },
+    {
+      "hash": "191869803744685B5A02F46A2E37C9BD44B38493F1699169C5CEFC6E30D1BBDA",
+      "path": "diagramas/fuentes/06-colaboracion.drawio"
+    },
+    {
+      "hash": "C78A703C105E17A8AD9A94EBB5CBBD8EAD2BB1DA2AA76B8786FFAAFB2039D44E",
+      "path": "documentos/Solucion-Textiles-Globales.docx"
+    },
+    {
+      "hash": "C60B757F581F1E16A5F39C5A1AD5F853073D2D214A359A5ED6D772F4880ADC31",
+      "path": "documentos/Solucion-Textiles-Globales.pdf"
+    },
+    {
+      "hash": "71D3147BE2EB580420E708B0FE4921252E9173262008172A309219C55399D5AA",
+      "path": "enunciado/COMPARACION.md"
+    },
+    {
+      "hash": "9286025FEEF2182BA81813BF1EB924F9AF8B77F4156869EB6319B14CDCB1FFAD",
+      "path": "enunciado/instrucciones-recibidas.txt"
+    },
+    {
+      "hash": "3E59570786586938F206343052E08CFD046D06C08502D51D8A4842DB1A8A0A9D",
+      "path": "enunciado/PROCEDENCIA.md"
+    },
+    {
+      "hash": "97B0B4F60A010FCA32062FBD7240A1505275625C6FA46A7FCAD14005F0F1C239",
+      "path": "enunciado/Simulacro de examen .pdf"
+    },
+    {
+      "hash": "624193964FCF309407A3A02F9263E996E4A5B15ECE2F815D9785865FF7E7D490",
+      "path": "evidencias/generar_diagramas.py"
+    },
+    {
+      "hash": "88B30A10F5692534333D5325D10A28841341BD96FF5439F53941BE56E9C3C258",
+      "path": "evidencias/generar_documento.py"
+    },
+    {
+      "hash": "91A0246471919FD6F96FD2D7400E85EA383C834FD01D5F4FF7E74A65917CA78F",
+      "path": "evidencias/modelo.json"
+    },
+    {
+      "hash": "9B430A84C72E1BF89DA5F6797DE00C00A3B515AD516185CF13D7054EAE90A50C",
+      "path": "evidencias/validar_ejercicio.py"
+    },
+    {
+      "hash": "95C97358027A5C7B58728DF6B59F36567D65C16E1D5DC8490295C4BBAE289B52",
+      "path": "evidencias/revision-diagramas/01-stack-tecnologias-1.png"
+    },
+    {
+      "hash": "58498DBE5E1BD28BC2F71EB37DAFE98598E42920858A0968A0C7E2F582230E77",
+      "path": "evidencias/revision-diagramas/02-dfd-contexto-1.png"
+    },
+    {
+      "hash": "460370C3ACC95B870071B3BBDF05FCB1734A26E62E30E27FEEA58DE20094969D",
+      "path": "evidencias/revision-diagramas/03-dfd-nivel-0-1.png"
+    },
+    {
+      "hash": "319DB8C11C9E53C45BAC43567CB13259C4A8B9454321BDBBA62D7F39E6CD22A1",
+      "path": "evidencias/revision-diagramas/04-casos-uso-1.png"
+    },
+    {
+      "hash": "E23D5B52FDD2EEA336DCF239E4972A8D0D388B1928EE853D281AB656B0E2957C",
+      "path": "evidencias/revision-diagramas/05-secuencia-1.png"
+    },
+    {
+      "hash": "671CD24A972619B952D74168939D7CF1BCAB19033AC1FA11190BC796D1B30BD3",
+      "path": "evidencias/revision-diagramas/06-colaboracion-1.png"
+    },
+    {
+      "hash": "C2ECD588487D31FA3705377D33E081C3B8AC5871F2D0CA64DEB0FA99875DAAD4",
+      "path": "evidencias/revision-documento/final-01.png"
+    },
+    {
+      "hash": "5B49843A03843CFE3A3EFC0A5821035B9749DAFEEB50A8A96CA670C76E2371DE",
+      "path": "evidencias/revision-documento/final-02.png"
+    },
+    {
+      "hash": "D7D312BF14ECBCE13298231181B9AEBDA8FBE59EE96AD9BE2865F918B7A535D4",
+      "path": "evidencias/revision-documento/final-03.png"
+    },
+    {
+      "hash": "04F3B713ADBC43F7A53B8314742EDDE512B40BCB24159B2D39FABFA78316D8E6",
+      "path": "evidencias/revision-documento/final-04.png"
+    },
+    {
+      "hash": "942C18F2E132CF04546BD50E5C560AE48CC0A43D4AE942DFBC47D06AC97EF3C7",
+      "path": "evidencias/revision-documento/final-05.png"
+    },
+    {
+      "hash": "F878AFE0720C8541FF5DFAF4F4E34C6F66DEE939913A31F5147B43FB41101FC2",
+      "path": "evidencias/revision-documento/final-06.png"
+    },
+    {
+      "hash": "CB78EA613EE0F87B00B20D8DF3BF1E72A6FF863C981593C9ED6268DD003EDFD4",
+      "path": "evidencias/revision-documento/final-07.png"
+    },
+    {
+      "hash": "4056C96737C7CD044119F23519E294C6831804DC7F873C8251038143D977E442",
+      "path": "evidencias/revision-documento/final-08.png"
+    },
+    {
+      "hash": "20D3B2E42B16FCA44BA2FA8059920934781DEC2AFBCA328C21FCDF6EFAF7EE61",
+      "path": "evidencias/revision-documento/final-09.png"
+    },
+    {
+      "hash": "AAC57D70CEAE39913901640691993F722F19F60109B2E7C97505B614D0012363",
+      "path": "evidencias/revision-documento/final-10.png"
+    },
+    {
+      "hash": "1B7EF61DB5E194EE7AE3D416034BC63A48E383AA5E9112CE1B149E6101540875",
+      "path": "evidencias/revision-documento/final-11.png"
+    },
+    {
+      "hash": "EABFE5D9F90BFB0365FD320B991451277D3BBA8F8B22F29923404E4965931D75",
+      "path": "evidencias/revision-documento/final-12.png"
+    },
+    {
+      "hash": "9AA4777D029260C414A0B6D9DAD9344DFC65AC0F30CC7B2A54BF5F3924F2F91F",
+      "path": "evidencias/revision-documento/final-13.png"
+    },
+    {
+      "hash": "539AC38E8A7AF09EF1890F6250A0E92C0D9FE7C9A302884084AD369181079074",
+      "path": "evidencias/revision-documento/final-14.png"
+    },
+    {
+      "hash": "AF5C422E3929B29DC9E90B1BCC68CB628CCA4CE941B50FA04E7C61739135148D",
+      "path": "evidencias/revision-documento/final-15.png"
+    },
+    {
+      "hash": "A56690D82A9596CF6025922E6FF86014F61F301FCFAB6BF6B56F4A6CD7974E9E",
+      "path": "evidencias/revision-documento/final-16.png"
+    },
+    {
+      "hash": "022A92ABE538CA94D1FA82CB86201D35D8091122F00D8458CEB8E7D6ED25C40C",
+      "path": "evidencias/revision-documento/final-17.png"
+    },
+    {
+      "hash": "826DFE87B36B72E64A3FD443C378E9BD91BCA3B99204BC03F4ECEB7199CB283E",
+      "path": "evidencias/revision-documento/final-18.png"
+    },
+    {
+      "hash": "4EE70F5BA505CDD3E2BCC58D9FCFB2636AB31CFE6C66709F3151E698833D881F",
+      "path": "evidencias/revision-documento/final-19.png"
+    },
+    {
+      "hash": "7FFF8B4800D5734FB0D57AE2264332C3620A8430B58B0A45B46B2EE180F5728D",
+      "path": "evidencias/revision-documento/final-20.png"
+    },
+    {
+      "hash": "AA8322C26BAC08FC5F758B2740C5A7181C46FA2880B80AEA0B35F3432C8DFBCB",
+      "path": "evidencias/revision-documento/final-21.png"
+    },
+    {
+      "hash": "9BF91DD1A21307CCCF6C5E1B8EBA6E62A7F044E187E08A51631122EE0A81A258",
+      "path": "evidencias/revision-documento/final-22.png"
+    },
+    {
+      "hash": "C2ECD588487D31FA3705377D33E081C3B8AC5871F2D0CA64DEB0FA99875DAAD4",
+      "path": "evidencias/revision-documento/pagina-01.png"
+    },
+    {
+      "hash": "0A72EFEDB0E8C6F823C70548E1D71973043F1C0F684C4E5A429D7B242687A732",
+      "path": "evidencias/revision-documento/pagina-02.png"
+    },
+    {
+      "hash": "87FCFE2D84D1DBB60F109EC30E31D23C0E77C9439537BADB012EBE301862A3D7",
+      "path": "evidencias/revision-documento/pagina-03.png"
+    },
+    {
+      "hash": "5DAF34024B5A44C7469D8E43839029F914492A124B60541AC6A8E15754662AA1",
+      "path": "evidencias/revision-documento/pagina-04.png"
+    },
+    {
+      "hash": "3FB5CDFD99F410E9034CB750CD684C81FDCB23587098D5DACF57F715127D192A",
+      "path": "evidencias/revision-documento/pagina-05.png"
+    },
+    {
+      "hash": "8AEDE0C97D12ECBB78D9BDFDB76A5858186354871C563657CB188B25347FD71A",
+      "path": "evidencias/revision-documento/pagina-06.png"
+    },
+    {
+      "hash": "9D9783B1840C5E62A3EC84417F77C08D0A7715579932AF503A829E7D27AF9298",
+      "path": "evidencias/revision-documento/pagina-07.png"
+    },
+    {
+      "hash": "565FEAB668F145D736DFB8D6AF5145F7D40CBB14E6A59A0D0E0D9D9F9D91F124",
+      "path": "evidencias/revision-documento/pagina-08.png"
+    },
+    {
+      "hash": "3D8E417870012D52567EB676F70D29798A1769130D6F8945BE6F2F6FE11E2795",
+      "path": "evidencias/revision-documento/pagina-09.png"
+    },
+    {
+      "hash": "8636C6AAC2818F82D7D375AE1E8CE7734C2E0945CE7EBAB7B360CDECCBD7C0ED",
+      "path": "evidencias/revision-documento/pagina-10.png"
+    },
+    {
+      "hash": "63F461B63205D0B94D7579964C61698832BC5EF16EF558AB66E4C59E03633337",
+      "path": "evidencias/revision-documento/pagina-11.png"
+    },
+    {
+      "hash": "D9A71963EF4D5B6A396BD630C8731FC53A918BEF80687C43BC33F51DCB860F04",
+      "path": "evidencias/revision-documento/pagina-12.png"
+    },
+    {
+      "hash": "DF5DCE7A5342F39448DE1B1AF50AF57AE6E61AC37B34A392F0BE89A77E73AB7E",
+      "path": "evidencias/revision-documento/pagina-13.png"
+    },
+    {
+      "hash": "A8250A44BC04BED213B2FBCDC0D4329EABAFA570CEDF4CB858DD822F37830C24",
+      "path": "evidencias/revision-documento/pagina-14.png"
+    },
+    {
+      "hash": "2C2B481F2802AAAE9AF424D58D6B986933E09B485272EA68D146B2A73F8DDB64",
+      "path": "evidencias/revision-documento/pagina-15.png"
+    },
+    {
+      "hash": "924F5315979AEABACB1F9415C68C9B90066C5CF8B9B313D681AD29B0440FBDE0",
+      "path": "evidencias/revision-documento/pagina-16.png"
+    },
+    {
+      "hash": "AC777183EAC21EA0B1E6BD7C04586F665689B5A622EF105359BF8D20430C602C",
+      "path": "evidencias/revision-documento/pagina-17.png"
+    },
+    {
+      "hash": "D31B53666756F538BFD0407FC1EAFE82BBEF2132B2B845F3B2EDC54D7C9C3B05",
+      "path": "evidencias/revision-documento/pagina-18.png"
+    },
+    {
+      "hash": "2E1D090BC619DB50964D5F40BD902ABCFE8209D0139EFDF3A8111D1C04E1F6F4",
+      "path": "evidencias/revision-documento/pagina-19.png"
+    },
+    {
+      "hash": "2205339ACD16DBFEE5C64319CC1E9BBC6CB7DC9C2D5FE240D0A496382D02C18E",
+      "path": "evidencias/revision-documento/pagina-20.png"
+    },
+    {
+      "hash": "45F856E4FB87CB0115931955CF33EE23DCE3F80437C7D754D9B1A969F3698A0F",
+      "path": "evidencias/revision-documento/pagina-21.png"
+    },
+    {
+      "hash": "B3636F7DC0D3F16F0ACE1CD2C52B00F78409BDCD9C21B8582DD958D81331D75C",
+      "path": "evidencias/revision-documento/pagina-22.png"
+    },
+    {
+      "hash": "AFC0971EF64EB096CEA6931B8EB5DA2BAFA0A9E6A965DC51DCE41EC497D78377",
+      "path": "evidencias/revision-documento/pagina-23.png"
+    },
+    {
+      "hash": "17BE7AA147C85E823F562713326C85E273CB5F0746E0FD3A9245C262B2C816A2",
+      "path": "evidencias/revision-documento/pagina-24.png"
+    },
+    {
+      "hash": "BB8EE2A2E96DB4981CF561BBB3BA603629928BDCF95394B31FEAAC12553E5311",
+      "path": "evidencias/revision-pdf/original-1.png"
+    },
+    {
+      "hash": "C57F536E1D19CCBDE0D203B021514E5903AE1491094574B49C9190D6C6B7C408",
+      "path": "evidencias/revision-pdf/original-2.png"
+    },
+    {
+      "hash": "AC1071B3B9B1FAA2A72FB910521E2CE12619C2F105C438CA53C9D54AECE772A3",
+      "path": "factibilidad/01-operativa.md"
+    },
+    {
+      "hash": "9ED8AFC26F0B378AFB788AABC73C3F7D0249DB36875FE257750044784D96EF14",
+      "path": "factibilidad/02-tecnica.md"
+    },
+    {
+      "hash": "51690D41552C55BA4F6B7747C6991A7DE7A7A52C8F6A53DA42889BE2400A69DA",
+      "path": "factibilidad/03-economica.md"
+    },
+    {
+      "hash": "AF6549C0111462915E08F05FE6CA2AFAEB7065C6384FA0E1B8D6EB175000C6C4",
+      "path": "validacion/comprobaciones.json"
+    },
+    {
+      "hash": "D54A0DA2D240AF4F8ABA56F91AC6F236F14748ECFC5E88D137828D0171FC73DE",
+      "path": "validacion/CONSISTENCIA.md"
+    },
+    {
+      "hash": "61836DE3A799B341031222C51ADD6E3E9759A315F6B80FFDB3D417F73C815871",
+      "path": "validacion/RESULTADOS.md"
+    }
+  ],
+  "head": "a188e4083c016dd798c7ea93ac62792842db4802"
+}

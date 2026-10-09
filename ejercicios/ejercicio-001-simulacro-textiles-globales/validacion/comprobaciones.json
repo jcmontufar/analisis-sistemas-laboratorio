@@ -1,0 +1,344 @@
+{
+  "sha256_original": "97B0B4F60A010FCA32062FBD7240A1505275625C6FA46A7FCAD14005F0F1C239",
+  "alcance": "Sintaxis/estructura; requiere revisión académica y visual independiente",
+  "comprobaciones": [
+    {
+      "comprobacion": "01-stack-tecnologias: DRAW.IO nativo editable",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "01-stack-tecnologias: referencias de conectores",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "01-stack-tecnologias: vértices dentro del lienzo",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "01-stack-tecnologias: exportación pdf",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "01-stack-tecnologias: una página PDF",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "01-stack-tecnologias: exportación png",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "01-stack-tecnologias: exportación svg",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "02-dfd-contexto: DRAW.IO nativo editable",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "02-dfd-contexto: referencias de conectores",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "02-dfd-contexto: vértices dentro del lienzo",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "02-dfd-contexto: exportación pdf",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "02-dfd-contexto: una página PDF",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "02-dfd-contexto: exportación png",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "02-dfd-contexto: exportación svg",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "03-dfd-nivel-0: DRAW.IO nativo editable",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "03-dfd-nivel-0: referencias de conectores",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "03-dfd-nivel-0: vértices dentro del lienzo",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "03-dfd-nivel-0: exportación pdf",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "03-dfd-nivel-0: una página PDF",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "03-dfd-nivel-0: exportación png",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "03-dfd-nivel-0: exportación svg",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "04-casos-uso: DRAW.IO nativo editable",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "04-casos-uso: referencias de conectores",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "04-casos-uso: vértices dentro del lienzo",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "04-casos-uso: exportación pdf",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "04-casos-uso: una página PDF",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "04-casos-uso: exportación png",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "04-casos-uso: exportación svg",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "05-secuencia: DRAW.IO nativo editable",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "05-secuencia: referencias de conectores",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "05-secuencia: vértices dentro del lienzo",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "05-secuencia: exportación pdf",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "05-secuencia: una página PDF",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "05-secuencia: exportación png",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "05-secuencia: exportación svg",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "06-colaboracion: DRAW.IO nativo editable",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "06-colaboracion: referencias de conectores",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "06-colaboracion: vértices dentro del lienzo",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "06-colaboracion: exportación pdf",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "06-colaboracion: una página PDF",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "06-colaboracion: exportación png",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "06-colaboracion: exportación svg",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Balance DFD F01–F08: actor, dirección y nombre",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Contexto: un proceso y cuatro entidades",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Nivel 0: cuatro procesos y cuatro almacenes",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "DFD: sin entidad→almacén ni almacén→almacén",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "DFD: procesos y almacenes con entrada y salida",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "UML: cinco include hacia comportamiento incluido",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "UML: extend rechazo hacia inspección con guarda",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Secuencia/colaboración: 20 mensajes idénticos",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: nombre de F04",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: F04 en análisis/matriz",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: nombre de F06",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: F06 en análisis/matriz",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: D4→P1 correctamente orientado",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: sin transferencia P4→P1",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: cuatro almacenes lógicos, alias explícito",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: liberación sin atribuir empaque físico",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: mensaje 20 confirma liberación",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: contenidos 1–19 conservados",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: exactamente 20 mensajes sin duplicación",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: emisores/receptores originales preservados",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: loop y alt conservados",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: otros seis flujos no alterados",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: cuatro actores originales preservados",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: enlaces contienen 1–20 exactamente una vez",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: llamadas numeradas y direcciones equivalentes",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: guardas en llamadas de colaboración",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: tres zonas stack delimitadas",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: componentes dentro de su zona",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: router separado de Internet",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: HTTPS exclusivamente en enlace",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: nube condicionada y RPO/RTO propuestos",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: tres factibilidades sin cambios",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "PDF original preservado y SHA-256 correcto",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Original: dos páginas completas",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "DOCX: seis diagramas insertados",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "DOCX: trece apartados principales",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: terminología corregida en DOCX",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: seis láminas actuales insertadas, SHA idéntico",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Documento PDF válido y no vacío",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Documento PDF sin páginas vacías",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Revisión 1.1: terminología corregida en PDF final",
+      "resultado": "PASS"
+    },
+    {
+      "comprobacion": "Escaneo de credenciales: sin patrones reconocidos",
+      "resultado": "PASS"
+    }
+  ],
+  "fallos": 0,
+  "archivos_con_patrones": []
+}

@@ -1,0 +1,180 @@
+{
+  "actors": [
+    "Jefe de Planta",
+    "Operario de Corte",
+    "Operario de Confección",
+    "Inspector de Calidad"
+  ],
+  "flows": [
+    [
+      "F01",
+      0,
+      "in",
+      "Orden de Trabajo y datos de tela asignada"
+    ],
+    [
+      "F02",
+      0,
+      "out",
+      "OT habilitada y resumen de producción"
+    ],
+    [
+      "F03",
+      1,
+      "in",
+      "Registro de corte y merma"
+    ],
+    [
+      "F04",
+      1,
+      "out",
+      "Datos de corte y estado del registro"
+    ],
+    [
+      "F05",
+      2,
+      "in",
+      "Registro de avance y tiempo por lote"
+    ],
+    [
+      "F06",
+      2,
+      "out",
+      "Datos de paquete habilitado y estado de confección"
+    ],
+    [
+      "F07",
+      3,
+      "in",
+      "Resultado de inspección y defectos"
+    ],
+    [
+      "F08",
+      3,
+      "out",
+      "Resumen de calidad y código de lote"
+    ]
+  ],
+  "messages": [
+    [
+      1,
+      0,
+      4,
+      "OT y metraje asignado"
+    ],
+    [
+      2,
+      4,
+      5,
+      "Guardar OT y habilitación"
+    ],
+    [
+      3,
+      5,
+      4,
+      "OT persistida"
+    ],
+    [
+      4,
+      4,
+      0,
+      "OT habilitada"
+    ],
+    [
+      5,
+      1,
+      4,
+      "Conteo de piezas y merma"
+    ],
+    [
+      6,
+      4,
+      5,
+      "Guardar corte y paquete"
+    ],
+    [
+      7,
+      5,
+      4,
+      "Corte persistido"
+    ],
+    [
+      8,
+      4,
+      1,
+      "Confirmación de corte"
+    ],
+    [
+      9,
+      2,
+      4,
+      "Avance por paquete y tiempo de lote"
+    ],
+    [
+      10,
+      4,
+      5,
+      "Guardar avance y tiempo"
+    ],
+    [
+      11,
+      5,
+      4,
+      "Confección persistida"
+    ],
+    [
+      12,
+      4,
+      2,
+      "Confirmación de confección"
+    ],
+    [
+      13,
+      3,
+      4,
+      "Resultado individual de inspección"
+    ],
+    [
+      14,
+      4,
+      5,
+      "[aprobada] Guardar prenda aprobada"
+    ],
+    [
+      15,
+      4,
+      5,
+      "[rechazada] Guardar rechazo y causa"
+    ],
+    [
+      16,
+      5,
+      4,
+      "Inspección persistida"
+    ],
+    [
+      17,
+      4,
+      3,
+      "Resumen de aprobadas y rechazadas"
+    ],
+    [
+      18,
+      3,
+      4,
+      "Liberación de aprobadas para empaque"
+    ],
+    [
+      19,
+      4,
+      5,
+      "[hay aprobadas] Generar y guardar código de lote"
+    ],
+    [
+      20,
+      4,
+      3,
+      "Código de lote y confirmación de liberación"
+    ]
+  ]
+}

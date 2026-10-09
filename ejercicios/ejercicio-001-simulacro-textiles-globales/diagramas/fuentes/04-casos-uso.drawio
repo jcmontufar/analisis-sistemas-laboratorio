@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="32.3.0">
+  <diagram id="04" name="04 Casos de uso">
+    <mxGraphModel dx="1700" dy="1230" grid="1" gridSize="10" page="1" pageWidth="1700" pageHeight="1230" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="04 Casos de uso&#10;Textiles Globales S.A." vertex="1" parent="1" style="text;html=0;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" kind="node">
+          <mxGeometry as="geometry" x="30" y="15" width="1640" height="65" />
+        </mxCell>
+        <mxCell id="boundary" value="Sistema de Gestión de Manufactura" vertex="1" parent="1" style="rounded=0;html=0;verticalAlign=top;align=left;fontSize=23;spacing=12;fillColor=none;strokeColor=#333333;" kind="boundary">
+          <mxGeometry as="geometry" x="390" y="95" width="1240" height="1050" />
+        </mxCell>
+        <mxCell id="uc0" value="Crear OT y habilitar tela" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="480" y="150" width="380" height="100" />
+        </mxCell>
+        <mxCell id="inc0" value="Verificar metraje" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="1160" y="150" width="380" height="100" />
+        </mxCell>
+        <mxCell id="e1" value="«include»" edge="1" parent="1" source="uc0" target="inc0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;strokeWidth=1.5;dashed=1;" relation="include">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="uc1" value="Registrar corte" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="480" y="345" width="380" height="100" />
+        </mxCell>
+        <mxCell id="inc1" value="Registrar conteo y merma" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="1160" y="345" width="380" height="100" />
+        </mxCell>
+        <mxCell id="e2" value="«include»" edge="1" parent="1" source="uc1" target="inc1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;strokeWidth=1.5;dashed=1;" relation="include">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="uc2" value="Registrar confección" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="480" y="540" width="380" height="100" />
+        </mxCell>
+        <mxCell id="inc2" value="Registrar avance y tiempo" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="1160" y="540" width="380" height="100" />
+        </mxCell>
+        <mxCell id="e3" value="«include»" edge="1" parent="1" source="uc2" target="inc2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;strokeWidth=1.5;dashed=1;" relation="include">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="uc3" value="Registrar inspección" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="480" y="735" width="380" height="100" />
+        </mxCell>
+        <mxCell id="inc3" value="Clasificar y contar prendas" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="1160" y="735" width="380" height="100" />
+        </mxCell>
+        <mxCell id="e4" value="«include»" edge="1" parent="1" source="uc3" target="inc3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;strokeWidth=1.5;dashed=1;" relation="include">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="uc4" value="Liberar aprobadas para empaque" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="480" y="970" width="380" height="100" />
+        </mxCell>
+        <mxCell id="inc4" value="Generar código de lote" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="1160" y="970" width="380" height="100" />
+        </mxCell>
+        <mxCell id="e5" value="«include»" edge="1" parent="1" source="uc4" target="inc4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;strokeWidth=1.5;dashed=1;" relation="include">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a0" value="Jefe de Planta" vertex="1" parent="1" style="shape=umlActor;html=0;whiteSpace=wrap;fontSize=18;verticalLabelPosition=bottom;verticalAlign=top;" kind="entity">
+          <mxGeometry as="geometry" x="60" y="150" width="220" height="115" />
+        </mxCell>
+        <mxCell id="e6" value="" edge="1" parent="1" source="a0" target="uc0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=none;endFill=1;strokeWidth=1.5;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a1" value="Operario de Corte" vertex="1" parent="1" style="shape=umlActor;html=0;whiteSpace=wrap;fontSize=18;verticalLabelPosition=bottom;verticalAlign=top;" kind="entity">
+          <mxGeometry as="geometry" x="60" y="345" width="220" height="115" />
+        </mxCell>
+        <mxCell id="e7" value="" edge="1" parent="1" source="a1" target="uc1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=none;endFill=1;strokeWidth=1.5;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a2" value="Operario de Confección" vertex="1" parent="1" style="shape=umlActor;html=0;whiteSpace=wrap;fontSize=18;verticalLabelPosition=bottom;verticalAlign=top;" kind="entity">
+          <mxGeometry as="geometry" x="60" y="540" width="220" height="115" />
+        </mxCell>
+        <mxCell id="e8" value="" edge="1" parent="1" source="a2" target="uc2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=none;endFill=1;strokeWidth=1.5;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a3" value="Inspector de Calidad" vertex="1" parent="1" style="shape=umlActor;html=0;whiteSpace=wrap;fontSize=18;verticalLabelPosition=bottom;verticalAlign=top;" kind="entity">
+          <mxGeometry as="geometry" x="60" y="735" width="220" height="115" />
+        </mxCell>
+        <mxCell id="e9" value="" edge="1" parent="1" source="a3" target="uc3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=none;endFill=1;strokeWidth=1.5;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e10" value="" edge="1" parent="1" source="a3" target="uc4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=none;endFill=1;strokeWidth=1.5;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="300" y="805" />
+              <mxPoint x="300" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reject" value="Registrar causa de rechazo" vertex="1" parent="1" style="ellipse;whiteSpace=wrap;html=0;fontSize=19;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="usecase">
+          <mxGeometry as="geometry" x="900" y="870" width="340" height="90" />
+        </mxCell>
+        <mxCell id="e11" value="«extend»&#10;[prenda rechazada]" edge="1" parent="1" source="reject" target="uc3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;strokeWidth=1.5;dashed=1;" relation="extend">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="note" value="Precondición de liberación: existen prendas aprobadas. No atribuye empaque físico al Inspector." vertex="1" parent="1" style="text;html=0;fontSize=18;align=left;strokeColor=none;fillColor=none;" kind="node">
+          <mxGeometry as="geometry" x="400" y="1160" width="1230" height="55" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

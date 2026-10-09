@@ -1,0 +1,637 @@
+# EJERCICIO REAL 001 — SIMULACRO DE EXAMEN
+## Automatización del Proceso de Manufactura en "Textiles Globales S.A."
+
+Trabajaremos sobre el laboratorio:
+
+jcmontufar/analisis-sistemas-laboratorio
+
+Este es el primer ejercicio académico real del laboratorio.
+
+IMPORTANTE:
+No debes modificar ejercicios anteriores, materiales originales ni documentos de las fases de preparación.
+
+Debes utilizar primero:
+- AGENTS.md
+- base-conocimiento/
+- matrices de evaluación
+- DERCAS-vs-EJERCICIOS.md
+- MAPA-DEPENDENCIAS.md
+- VALIDACION-EJERCICIO.md
+
+y posteriormente el enunciado específico del simulacro.
+
+==================================================
+1. CREAR EL EJERCICIO
+==================================================
+
+Crea:
+
+ejercicios/ejercicio-001-simulacro-textiles-globales/
+
+con:
+
+enunciado/
+analisis/
+factibilidad/
+diagramas/
+  fuentes/
+  exportados/
+documentos/
+evidencias/
+validacion/
+
+Incorpora el PDF original del simulacro dentro de:
+
+enunciado/
+
+sin modificar el archivo original.
+
+Registra su nombre y hash SHA-256.
+
+==================================================
+2. REGLA FUNDAMENTAL DEL EXAMEN
+==================================================
+
+El enunciado exige que TODOS LOS DIAGRAMAS sean creados exclusivamente en DRAW.IO.
+
+Por lo tanto:
+
+NO utilizar PlantUML, Mermaid o Graphviz como entregable final.
+
+Se pueden utilizar internamente únicamente para razonamiento o validación, pero los archivos oficiales deben ser:
+
+.drawio
+
+y deben exportarse como mínimo a:
+
+PDF
+
+También exporta SVG y PNG cuando sea útil para inspección visual.
+
+Cada diagrama debe conservar su archivo fuente editable .drawio.
+
+==================================================
+3. NO DIBUJAR TODAVÍA
+==================================================
+
+Antes de generar cualquier diagrama:
+
+1. Lee el simulacro completo.
+2. Consulta las matrices correspondientes.
+3. Consulta las reglas académicas del laboratorio.
+4. Elabora primero un análisis estructurado.
+5. Identifica ambigüedades.
+6. Separa:
+   - información explícita del examen;
+   - inferencias;
+   - convenciones técnicas complementarias.
+
+No inventes procesos de negocio que no sean necesarios.
+
+==================================================
+4. ANALIZAR EL CASO
+==================================================
+
+Caso:
+
+Textiles Globales S.A.
+
+Proceso limitado al área de producción, desde la habilitación/corte de materia prima hasta la liberación del producto terminado.
+
+Identifica y documenta como mínimo:
+
+- actores;
+- procesos;
+- entradas;
+- salidas;
+- controles;
+- reglas de negocio;
+- decisiones;
+- almacenes de datos candidatos;
+- datos que deben capturarse;
+- relaciones entre procesos.
+
+Actores explícitos:
+
+- Jefe de Planta
+- Operario de Corte
+- Operario de Confección
+- Inspector de Calidad
+
+Procesos explícitos:
+
+1. Orden de Producción y Habilitación de Tela
+2. Proceso de Corte de Piezas
+3. Ensamble y Costura
+4. Control de Calidad y Empaque
+
+Controles explícitos:
+
+- metraje de tela asignado vs estándar teórico;
+- conteo de piezas cortadas;
+- porcentaje de merma;
+- avance por paquete;
+- tiempo empleado por lote;
+- prendas aprobadas;
+- prendas rechazadas;
+- causa del defecto;
+- generación de código de lote.
+
+No agregues actores adicionales al flujo principal sin justificarlo.
+
+==================================================
+5. FACTIBILIDAD OPERATIVA
+==================================================
+
+Desarrolla una factibilidad operativa completa.
+
+Debe considerar explícitamente que:
+
+- operarios de corte, confección e inspección poseen nivel bajo o nulo de conocimiento informático;
+- no utilizan aplicaciones móviles complejas;
+- no tienen experiencia con sistemas empresariales;
+- la interfaz debe ser muy intuitiva;
+- debe utilizar colores;
+- íconos grandes;
+- botones claros;
+- mínimo ingreso de texto.
+
+Incluye:
+
+- análisis de adaptación;
+- resistencia al cambio;
+- perfiles de usuario;
+- nivel tecnológico;
+- necesidades de capacitación;
+- cantidad recomendada de capacitaciones por grupo;
+- estrategia de capacitación;
+- estrategia de adopción;
+- diseño de usabilidad;
+- riesgos operativos;
+- mitigaciones;
+- conclusión de factibilidad operativa.
+
+Cuando el enunciado no proporcione cantidades de empleados, NO inventarlas.
+
+Si se necesita estimar capacitación, expresar claramente que se plantea por grupos/roles y no por número ficticio de personas.
+
+==================================================
+6. FACTIBILIDAD TÉCNICA
+==================================================
+
+El enunciado indica que actualmente NO existe:
+
+- equipo informático;
+- servidores;
+- dispositivos móviles;
+- lectores de códigos;
+- cableado de red.
+
+Analiza alternativas.
+
+Comparar:
+
+A. Infraestructura local
+B. Servicios en la nube
+
+Evaluar:
+
+- disponibilidad;
+- mantenimiento;
+- escalabilidad;
+- costo operativo;
+- dependencia de Internet;
+- respaldo;
+- administración.
+
+Proponer una arquitectura recomendada.
+
+Evaluar y justificar:
+
+- red cableada;
+- Wi-Fi industrial;
+- terminales de uso rudo;
+- tabletas industriales o protegidas;
+- lectores de código de barras;
+- impresora de etiquetas si el diseño del lote lo necesita;
+- equipos administrativos;
+- conexión a Internet;
+- router/firewall;
+- puntos de acceso;
+- respaldo eléctrico;
+- servicio en la nube;
+- base de datos;
+- sistema web.
+
+No colocar precios todavía dentro de factibilidad técnica.
+
+Genera una tabla:
+
+Recurso | Especificación mínima | Cantidad lógica | Uso | Justificación
+
+Si la cantidad exacta depende del número de estaciones desconocidas, marcar:
+
+POR DEFINIR SEGÚN PUESTOS DE TRABAJO
+
+No inventarla.
+
+==================================================
+7. FACTIBILIDAD ECONÓMICA
+==================================================
+
+El examen solicita:
+
+- inversión inicial en hardware/software;
+- costos operativos;
+- mantenimiento;
+- capacitación;
+- comparación con beneficios esperados;
+- conclusión global.
+
+Construye un modelo económico académico.
+
+IMPORTANTE:
+
+Si el examen no proporciona precios reales, diferencia claramente:
+
+- valores de referencia;
+- supuestos;
+- datos proporcionados por el examen.
+
+No presentes estimaciones como información del enunciado.
+
+Incluye tablas para:
+
+A. Hardware e infraestructura
+B. Servicios/software
+C. Capacitación e implementación
+D. Costos operativos anuales
+
+Analiza beneficios:
+
+- reducción de merma;
+- reducción de errores;
+- trazabilidad;
+- medición de tiempos;
+- reducción de papel;
+- disponibilidad de información.
+
+No inventes ahorros monetarios que no puedan justificarse.
+
+Cuando no existan datos productivos suficientes para ROI exacto, indicarlo expresamente.
+
+Puedes desarrollar análisis cualitativo o escenarios.
+
+Finalizar con:
+
+CONCLUSIÓN DE VIABILIDAD GLOBAL
+
+==================================================
+8. STACK DE TECNOLOGÍAS
+==================================================
+
+Crear en DRAW.IO.
+
+Debe representar de izquierda a derecha:
+
+Usuarios de planta
+→ dispositivos
+→ red local/Wi-Fi
+→ Internet
+→ nube/servicio
+→ frontend
+→ backend/API
+→ base de datos
+→ respaldos/monitoreo
+
+La tecnología seleccionada debe ser razonable para:
+
+- interfaz web sencilla;
+- operación en tabletas/terminales;
+- centralización;
+- trazabilidad;
+- mantenimiento sencillo.
+
+Antes de elegir tecnologías, documenta la justificación.
+
+No sobredimensionar la solución.
+
+Archivo:
+
+diagramas/fuentes/01-stack-tecnologias.drawio
+
+Exportar:
+
+01-stack-tecnologias.pdf
+01-stack-tecnologias.svg
+01-stack-tecnologias.png
+
+==================================================
+9. DFD DE CONTEXTO
+==================================================
+
+Crear exclusivamente en DRAW.IO.
+
+Seguir las reglas académicas del laboratorio y Kendall cuando correspondan.
+
+Utilizar:
+
+Proceso 0:
+Sistema de Gestión de Manufactura de Textiles Globales S.A.
+
+Identificar únicamente entidades externas reales.
+
+Evaluar como candidatos:
+
+- Jefe de Planta
+- Operario de Corte
+- Operario de Confección
+- Inspector de Calidad
+
+Nombrar TODOS los flujos.
+
+Mantener los flujos como datos, no acciones.
+
+Ejemplos de tipos de datos:
+
+- Orden de Producción
+- Datos de tela asignada
+- Registro de corte
+- Datos de merma
+- Registro de avance
+- Tiempo de lote
+- Resultado de inspección
+- Datos de defectos
+- Código de lote
+
+No utilizar estos ejemplos automáticamente:
+valida cada flujo contra el análisis.
+
+Archivo:
+
+02-dfd-contexto.drawio
+
+==================================================
+10. DFD NIVEL 0
+==================================================
+
+Descomponer el proceso 0.
+
+Evaluar utilizar:
+
+1.0 Gestionar Orden de Producción
+2.0 Gestionar Corte
+3.0 Gestionar Confección
+4.0 Gestionar Calidad y Empaque
+
+Determinar almacenes basándose en el análisis.
+
+Candidatos:
+
+D1 Órdenes de Producción
+D2 Lotes / Tela
+D3 Registros de Corte
+D4 Avances de Confección
+D5 Control de Calidad
+D6 Producto Terminado / Lotes
+
+No conservar un almacén únicamente porque aparezca en esta lista:
+debe justificarse.
+
+Validar:
+
+- entradas;
+- salidas;
+- balance con contexto;
+- ausencia de procesos milagro;
+- ausencia de agujeros negros;
+- ausencia de almacenes aislados;
+- nombres de flujos;
+- numeración.
+
+Archivo:
+
+03-dfd-nivel-0.drawio
+
+==================================================
+11. CASOS DE USO
+==================================================
+
+Crear en DRAW.IO.
+
+El examen exige uso de:
+
+<<include>>
+<<extend>>
+
+IMPORTANTE:
+
+El material académico contiene un ejemplo donde `extends` difiere de UML estándar.
+
+Consulta:
+
+base-conocimiento/uml/casos-uso-notacion.md
+
+Aplicar UML estándar salvo que una instrucción específica del examen indique lo contrario.
+
+Documenta cualquier diferencia.
+
+Actores iniciales:
+
+- Jefe de Planta
+- Operario de Corte
+- Operario de Confección
+- Inspector de Calidad
+
+Identifica casos de uso derivados exclusivamente del proceso.
+
+Evaluar como posibles casos:
+
+- Crear orden de producción
+- Registrar tela asignada
+- Registrar corte
+- Registrar merma
+- Registrar avance de confección
+- Registrar tiempo de lote
+- Registrar inspección
+- Clasificar prenda
+- Registrar causa de rechazo
+- Generar código de lote
+
+Determina correctamente cuáles son:
+
+- casos principales;
+- comportamientos obligatorios <<include>>;
+- comportamientos opcionales/condicionales <<extend>>.
+
+No utilices include/extend únicamente para cumplir el requisito.
+
+Archivo:
+
+04-casos-uso.drawio
+
+==================================================
+12. DIAGRAMA DE SECUENCIA
+==================================================
+
+Crear en DRAW.IO.
+
+Modelar el escenario principal completo:
+
+Orden
+→ Corte
+→ Confección
+→ Calidad
+→ liberación/empaque
+
+Identificar participantes apropiados.
+
+Representar interacción entre:
+
+Usuario / actor
+Sistema
+Persistencia/base de datos
+
+cuando corresponda.
+
+Incluir condiciones donde exista:
+
+prenda aprobada / prenda rechazada.
+
+Archivo:
+
+05-secuencia.drawio
+
+==================================================
+13. DIAGRAMA DE COLABORACIÓN
+==================================================
+
+Crear en DRAW.IO.
+
+Debe representar el mismo escenario del diagrama de secuencia.
+
+Los mensajes deben:
+
+- corresponder con los de secuencia;
+- estar numerados;
+- conservar coherencia semántica.
+
+Archivo:
+
+06-colaboracion.drawio
+
+==================================================
+14. CONSISTENCIA CRUZADA
+==================================================
+
+Crear una matriz:
+
+Elemento
+| DFD Contexto
+| DFD 0
+| Casos de Uso
+| Secuencia
+| Colaboración
+
+Verificar que el mismo dominio esté representado en todos.
+
+Comprobar especialmente:
+
+- actores;
+- procesos;
+- datos;
+- nombres;
+- estados;
+- decisiones.
+
+==================================================
+15. CALIDAD VISUAL DRAW.IO
+==================================================
+
+Todos los diagramas deben:
+
+- estar completamente dentro del lienzo;
+- evitar cruces innecesarios;
+- utilizar conectores ortogonales cuando sea apropiado;
+- mantener tipografía legible;
+- tener título;
+- incluir nombre del caso;
+- respetar jerarquía visual;
+- no contener elementos cortados;
+- caber adecuadamente en PDF.
+
+Revisar visualmente cada exportación.
+
+==================================================
+16. DOCUMENTO FINAL
+==================================================
+
+Crear un documento de solución con:
+
+1. Portada breve
+2. Caso
+3. Factibilidad operativa
+4. Factibilidad técnica
+5. Factibilidad económica
+6. Conclusión de viabilidad
+7. Stack
+8. DFD Contexto
+9. DFD Nivel 0
+10. Casos de Uso
+11. Secuencia
+12. Colaboración
+13. Conclusiones
+
+Generar:
+
+DOCX
+PDF
+
+Los diagramas insertados deben conservar legibilidad.
+
+==================================================
+17. VALIDACIÓN
+==================================================
+
+Ejecuta:
+
+- validaciones del laboratorio;
+- validación de archivos draw.io;
+- comprobación visual;
+- comprobación de exportaciones;
+- revisión de nombres;
+- revisión de consistencia;
+- escaneo de credenciales.
+
+Genera:
+
+validacion/RESULTADOS.md
+
+Separar:
+
+VALIDACIÓN SINTÁCTICA
+VALIDACIÓN ESTRUCTURAL
+VALIDACIÓN ACADÉMICA
+REVISIÓN VISUAL
+
+No afirmar que algo es académicamente correcto únicamente porque renderizó.
+
+==================================================
+18. GIT
+==================================================
+
+NO publiques cambios inmediatamente.
+
+Primero:
+
+1. genera todo;
+2. valida;
+3. presenta un informe;
+4. indica archivos generados;
+5. indica decisiones de modelado;
+6. indica ambigüedades;
+7. indica supuestos.
+
+DETENTE antes de hacer commit.
+
+Esperaremos revisión humana antes de publicar este ejercicio.

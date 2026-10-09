@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="32.3.0">
+  <diagram id="06" name="06 Diagrama de colaboración">
+    <mxGraphModel dx="1900" dy="1470" grid="1" gridSize="10" page="1" pageWidth="1900" pageHeight="1470" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="06 Diagrama de colaboración&#10;Textiles Globales S.A." vertex="1" parent="1" style="text;html=0;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" kind="node">
+          <mxGeometry as="geometry" x="30" y="15" width="1840" height="65" />
+        </mxCell>
+        <mxCell id="a0" value="Jefe de Planta" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="participant">
+          <mxGeometry as="geometry" x="40" y="125" width="280" height="80" />
+        </mxCell>
+        <mxCell id="a1" value="Operario de Corte" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="participant">
+          <mxGeometry as="geometry" x="40" y="345" width="280" height="80" />
+        </mxCell>
+        <mxCell id="a2" value="Operario de Confección" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="participant">
+          <mxGeometry as="geometry" x="40" y="565" width="280" height="80" />
+        </mxCell>
+        <mxCell id="a3" value="Inspector de Calidad" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="participant">
+          <mxGeometry as="geometry" x="40" y="785" width="280" height="80" />
+        </mxCell>
+        <mxCell id="system" value="Sistema de Gestión&#10;de Manufactura" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="participant">
+          <mxGeometry as="geometry" x="730" y="125" width="340" height="740" />
+        </mxCell>
+        <mxCell id="db" value="Persistencia&#10;PostgreSQL" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="participant">
+          <mxGeometry as="geometry" x="1480" y="410" width="300" height="120" />
+        </mxCell>
+        <mxCell id="e1" value="1: registrarOT()" edge="1" parent="1" source="a0" target="system" style="edgeStyle=none;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=1;exitY=0.25;entryX=0;entryY=0.02702702702702703;" link_messages="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-24" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="4: confirmarOT()" edge="1" parent="1" source="system" target="a0" style="edgeStyle=none;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0;exitY=0.08108108108108109;entryX=1;entryY=0.75;" link_messages="4">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="24" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="5: registrarCorte()" edge="1" parent="1" source="a1" target="system" style="edgeStyle=none;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=1;exitY=0.25;entryX=0;entryY=0.32432432432432434;" link_messages="5">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-24" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="8: confirmarCorte()" edge="1" parent="1" source="system" target="a1" style="edgeStyle=none;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0;exitY=0.3783783783783784;entryX=1;entryY=0.75;" link_messages="8">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="24" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="9: registrarConfeccion()" edge="1" parent="1" source="a2" target="system" style="edgeStyle=none;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=1;exitY=0.25;entryX=0;entryY=0.6216216216216216;" link_messages="9">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-24" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="12: confirmarConfeccion()" edge="1" parent="1" source="system" target="a2" style="edgeStyle=none;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0;exitY=0.6756756756756757;entryX=1;entryY=0.75;" link_messages="12">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="24" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="13: registrarInspeccion()&#10;18: liberarAprobadas()" edge="1" parent="1" source="a3" target="system" style="edgeStyle=none;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=1;exitY=0.25;entryX=0;entryY=0.918918918918919;" link_messages="13,18">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-24" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="17: mostrarResumen()&#10;20: confirmarLiberacion()" edge="1" parent="1" source="system" target="a3" style="edgeStyle=none;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0;exitY=0.972972972972973;entryX=1;entryY=0.75;" link_messages="17,20">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="24" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="2: guardarOT()&#10;6: guardarCorte()&#10;10: guardarAvance()&#10;14: [aprobada] guardarAprobada()&#10;15: [rechazada] guardarRechazo()&#10;19: [hay aprobadas] guardarCodigoLote()" edge="1" parent="1" source="system" target="db" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=1;exitY=0.42567567567567566;entryX=0;entryY=0.25;" link_messages="2,6,10,14,15,19">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-140" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="3: confirmarPersistencia()&#10;7: confirmarPersistencia()&#10;11: confirmarPersistencia()&#10;16: confirmarInspeccion()" edge="1" parent="1" source="db" target="system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0;exitY=0.75;entryX=1;entryY=0.5067567567567568;" link_messages="3,7,11,16">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="65" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guard" value="14 [aprobada] / 15 [rechazada]:&#10;alternativas excluyentes. 13-17: repetir por prenda.&#10;18-20: Liberar aprobadas para empaque, si existen.&#10;20: liberación registrada, no empaque físico." vertex="1" parent="1" style="text;html=0;align=left;fontSize=18;strokeColor=none;fillColor=none;" kind="node">
+          <mxGeometry as="geometry" x="1120" y="670" width="700" height="160" />
+        </mxCell>
+        <mxCell id="msg1" value="1. OT y metraje asignado" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="1" sender="0" receiver="4" message="OT y metraje asignado">
+          <mxGeometry as="geometry" x="40" y="920" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg2" value="2. Guardar OT y habilitación" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="2" sender="4" receiver="5" message="Guardar OT y habilitación">
+          <mxGeometry as="geometry" x="40" y="969" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg3" value="3. OT persistida" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="3" sender="5" receiver="4" message="OT persistida">
+          <mxGeometry as="geometry" x="40" y="1018" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg4" value="4. OT habilitada" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="4" sender="4" receiver="0" message="OT habilitada">
+          <mxGeometry as="geometry" x="40" y="1067" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg5" value="5. Conteo de piezas y merma" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="5" sender="1" receiver="4" message="Conteo de piezas y merma">
+          <mxGeometry as="geometry" x="40" y="1116" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg6" value="6. Guardar corte y paquete" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="6" sender="4" receiver="5" message="Guardar corte y paquete">
+          <mxGeometry as="geometry" x="40" y="1165" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg7" value="7. Corte persistido" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="7" sender="5" receiver="4" message="Corte persistido">
+          <mxGeometry as="geometry" x="40" y="1214" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg8" value="8. Confirmación de corte" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="8" sender="4" receiver="1" message="Confirmación de corte">
+          <mxGeometry as="geometry" x="40" y="1263" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg9" value="9. Avance por paquete y tiempo de lote" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="9" sender="2" receiver="4" message="Avance por paquete y tiempo de lote">
+          <mxGeometry as="geometry" x="40" y="1312" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg10" value="10. Guardar avance y tiempo" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="10" sender="4" receiver="5" message="Guardar avance y tiempo">
+          <mxGeometry as="geometry" x="40" y="1361" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg11" value="11. Confección persistida" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="11" sender="5" receiver="4" message="Confección persistida">
+          <mxGeometry as="geometry" x="970" y="920" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg12" value="12. Confirmación de confección" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="12" sender="4" receiver="2" message="Confirmación de confección">
+          <mxGeometry as="geometry" x="970" y="969" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg13" value="13. Resultado individual de inspección" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="13" sender="3" receiver="4" message="Resultado individual de inspección">
+          <mxGeometry as="geometry" x="970" y="1018" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg14" value="14. [aprobada] Guardar prenda aprobada" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="14" sender="4" receiver="5" message="[aprobada] Guardar prenda aprobada">
+          <mxGeometry as="geometry" x="970" y="1067" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg15" value="15. [rechazada] Guardar rechazo y causa" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="15" sender="4" receiver="5" message="[rechazada] Guardar rechazo y causa">
+          <mxGeometry as="geometry" x="970" y="1116" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg16" value="16. Inspección persistida" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="16" sender="5" receiver="4" message="Inspección persistida">
+          <mxGeometry as="geometry" x="970" y="1165" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg17" value="17. Resumen de aprobadas y rechazadas" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="17" sender="4" receiver="3" message="Resumen de aprobadas y rechazadas">
+          <mxGeometry as="geometry" x="970" y="1214" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg18" value="18. Liberación de aprobadas para empaque" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="18" sender="3" receiver="4" message="Liberación de aprobadas para empaque">
+          <mxGeometry as="geometry" x="970" y="1263" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg19" value="19. [hay aprobadas] Generar y guardar código de lote" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="19" sender="4" receiver="5" message="[hay aprobadas] Generar y guardar código de lote">
+          <mxGeometry as="geometry" x="970" y="1312" width="890" height="46" />
+        </mxCell>
+        <mxCell id="msg20" value="20. Código de lote y confirmación de liberación" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;align=left;spacing=7;fontSize=18;fillColor=#f5f5f5;strokeColor=#dddddd;" kind="message" message_id="20" sender="4" receiver="3" message="Código de lote y confirmación de liberación">
+          <mxGeometry as="geometry" x="970" y="1361" width="890" height="46" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

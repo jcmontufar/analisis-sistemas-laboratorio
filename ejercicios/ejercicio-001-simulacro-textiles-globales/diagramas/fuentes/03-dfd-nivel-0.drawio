@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="32.3.0">
+  <diagram id="03" name="03 DFD nivel cero">
+    <mxGraphModel dx="2300" dy="1120" grid="1" gridSize="10" page="1" pageWidth="2300" pageHeight="1120" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="03 DFD nivel cero&#10;Textiles Globales S.A." vertex="1" parent="1" style="text;html=0;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" kind="node">
+          <mxGeometry as="geometry" x="30" y="15" width="2240" height="65" />
+        </mxCell>
+        <mxCell id="a0" value="Jefe de Planta" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;" kind="entity">
+          <mxGeometry as="geometry" x="260" y="110" width="400" height="80" />
+        </mxCell>
+        <mxCell id="p0" value="1.0 Gestionar Orden&#10;de Producción" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="process">
+          <mxGeometry as="geometry" x="260" y="440" width="400" height="110" />
+        </mxCell>
+        <mxCell id="db0" value="D1 Órdenes de producción&#10;y tela" vertex="1" parent="1" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fontSize=19;fillColor=#fff2cc;strokeColor=#d6b656;" kind="store">
+          <mxGeometry as="geometry" x="260" y="840" width="400" height="80" />
+        </mxCell>
+        <mxCell id="e1" value="F01&#10;Orden de Trabajo y datos&#10;de tela asignada" edge="1" parent="1" source="a0" target="p0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.25;exitY=1;entryX=0.25;entryY=0;" flow_id="F01" actor="0" direction="in">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e2" value="F02&#10;OT habilitada y resumen&#10;de producción" edge="1" parent="1" source="p0" target="a0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.75;exitY=0;entryX=0.75;entryY=1;" flow_id="F02" actor="0" direction="out">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e3" value="OT, tela y metraje" edge="1" parent="1" source="p0" target="db0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.25;exitY=1;entryX=0.25;entryY=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e4" value="OT y estándar&#10;registrados" edge="1" parent="1" source="db0" target="p0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.75;exitY=0;entryX=0.75;entryY=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a1" value="Operario de Corte" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;" kind="entity">
+          <mxGeometry as="geometry" x="770" y="110" width="400" height="80" />
+        </mxCell>
+        <mxCell id="p1" value="2.0 Gestionar Corte" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="process">
+          <mxGeometry as="geometry" x="770" y="440" width="400" height="110" />
+        </mxCell>
+        <mxCell id="db1" value="D2 Registros de corte" vertex="1" parent="1" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fontSize=19;fillColor=#fff2cc;strokeColor=#d6b656;" kind="store">
+          <mxGeometry as="geometry" x="770" y="840" width="400" height="80" />
+        </mxCell>
+        <mxCell id="e5" value="F03&#10;Registro de corte y&#10;merma" edge="1" parent="1" source="a1" target="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.25;exitY=1;entryX=0.25;entryY=0;" flow_id="F03" actor="1" direction="in">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e6" value="F04&#10;Datos de corte y estado&#10;del registro" edge="1" parent="1" source="p1" target="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.75;exitY=0;entryX=0.75;entryY=1;" flow_id="F04" actor="1" direction="out">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e7" value="Conteo y merma" edge="1" parent="1" source="p1" target="db1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.25;exitY=1;entryX=0.25;entryY=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e8" value="Corte y paquetes&#10;registrados" edge="1" parent="1" source="db1" target="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.75;exitY=0;entryX=0.75;entryY=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a2" value="Operario de Confección" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;" kind="entity">
+          <mxGeometry as="geometry" x="1280" y="110" width="400" height="80" />
+        </mxCell>
+        <mxCell id="p2" value="3.0 Gestionar Confección" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="process">
+          <mxGeometry as="geometry" x="1280" y="440" width="400" height="110" />
+        </mxCell>
+        <mxCell id="db2" value="D3 Avances de confección" vertex="1" parent="1" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fontSize=19;fillColor=#fff2cc;strokeColor=#d6b656;" kind="store">
+          <mxGeometry as="geometry" x="1280" y="840" width="400" height="80" />
+        </mxCell>
+        <mxCell id="e9" value="F05&#10;Registro de avance y&#10;tiempo por lote" edge="1" parent="1" source="a2" target="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.25;exitY=1;entryX=0.25;entryY=0;" flow_id="F05" actor="2" direction="in">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e10" value="F06&#10;Datos de paquete&#10;habilitado y estado de&#10;confección" edge="1" parent="1" source="p2" target="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.75;exitY=0;entryX=0.75;entryY=1;" flow_id="F06" actor="2" direction="out">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e11" value="Avance y duración" edge="1" parent="1" source="p2" target="db2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.25;exitY=1;entryX=0.25;entryY=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e12" value="Avances registrados" edge="1" parent="1" source="db2" target="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.75;exitY=0;entryX=0.75;entryY=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a3" value="Inspector de Calidad" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;" kind="entity">
+          <mxGeometry as="geometry" x="1790" y="110" width="400" height="80" />
+        </mxCell>
+        <mxCell id="p3" value="4.0 Gestionar Calidad&#10;y Empaque" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="process">
+          <mxGeometry as="geometry" x="1790" y="440" width="400" height="110" />
+        </mxCell>
+        <mxCell id="db3" value="D4 Inspecciones y&#10;lotes liberados" vertex="1" parent="1" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fontSize=19;fillColor=#fff2cc;strokeColor=#d6b656;" kind="store">
+          <mxGeometry as="geometry" x="1790" y="840" width="400" height="80" />
+        </mxCell>
+        <mxCell id="e13" value="F07&#10;Resultado de inspección&#10;y defectos" edge="1" parent="1" source="a3" target="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.25;exitY=1;entryX=0.25;entryY=0;" flow_id="F07" actor="3" direction="in">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e14" value="F08&#10;Resumen de calidad y&#10;código de lote" edge="1" parent="1" source="p3" target="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.75;exitY=0;entryX=0.75;entryY=1;" flow_id="F08" actor="3" direction="out">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e15" value="Inspección, defectos&#10;y código de lote" edge="1" parent="1" source="p3" target="db3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.25;exitY=1;entryX=0.25;entryY=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e16" value="Calidad y lotes&#10;registrados" edge="1" parent="1" source="db3" target="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.75;exitY=0;entryX=0.75;entryY=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e17" value="OT habilitada y datos de&#10;tela" edge="1" parent="1" source="p0" target="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-95" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" value="Paquete cortado y&#10;trazabilidad" edge="1" parent="1" source="p1" target="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-95" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" value="Lote confeccionado y&#10;tiempos" edge="1" parent="1" source="p2" target="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0" y="-95" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d4alias" value="D4 Inspecciones y lotes liberados&#10;(representación repetida del mismo D4)" vertex="1" parent="1" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" kind="store_alias" logical_store="db3">
+          <mxGeometry as="geometry" x="260" y="965" width="400" height="65" />
+        </mxCell>
+        <mxCell id="e20" value="Resumen de calidad y&#10;lote liberado" edge="1" parent="1" source="d4alias" target="p0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0;exitY=0.5;entryX=0;entryY=0.8;" logical_source="db3">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="80" y="998" />
+              <mxPoint x="80" y="528" />
+            </Array>
+            <mxPoint as="offset" x="100" y="0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" value="D1-D4: cuatro almacenes lógicos; D4 se representa dos veces para abreviar su lectura por P1.&#10;P4 actualiza D4; P1 consulta D4 para F02. Balance F01-F08; sin conexión entidad-almacén." vertex="1" parent="1" style="text;html=0;fontSize=17;align=left;strokeColor=none;fillColor=none;" kind="node">
+          <mxGeometry as="geometry" x="710" y="970" width="1540" height="100" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

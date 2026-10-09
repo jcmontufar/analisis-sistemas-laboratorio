@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="32.3.0">
+  <diagram id="02" name="02 DFD de contexto">
+    <mxGraphModel dx="1800" dy="1200" grid="1" gridSize="10" page="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="02 DFD de contexto&#10;Textiles Globales S.A." vertex="1" parent="1" style="text;html=0;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" kind="node">
+          <mxGeometry as="geometry" x="30" y="15" width="1740" height="65" />
+        </mxCell>
+        <mxCell id="p0" value="0&#10;Sistema de Gestión de Manufactura&#10;de Textiles Globales S.A." vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontSize=17;spacing=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" kind="process">
+          <mxGeometry as="geometry" x="650" y="470" width="500" height="240" />
+        </mxCell>
+        <mxCell id="a0" value="Jefe de Planta" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;fontSize=19;spacing=8;fillColor=#f5f5f5;strokeColor=#666666;" kind="entity">
+          <mxGeometry as="geometry" x="60" y="140" width="280" height="100" />
+        </mxCell>
+        <mxCell id="a1" value="Operario de Corte" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;fontSize=19;spacing=8;fillColor=#f5f5f5;strokeColor=#666666;" kind="entity">
+          <mxGeometry as="geometry" x="1420" y="140" width="280" height="100" />
+        </mxCell>
+        <mxCell id="a2" value="Operario de Confección" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;fontSize=19;spacing=8;fillColor=#f5f5f5;strokeColor=#666666;" kind="entity">
+          <mxGeometry as="geometry" x="60" y="940" width="280" height="100" />
+        </mxCell>
+        <mxCell id="a3" value="Inspector de Calidad" vertex="1" parent="1" style="rounded=0;html=0;whiteSpace=wrap;fontSize=19;spacing=8;fillColor=#f5f5f5;strokeColor=#666666;" kind="entity">
+          <mxGeometry as="geometry" x="1420" y="940" width="280" height="100" />
+        </mxCell>
+        <mxCell id="e1" value="F01&#10;Orden de Trabajo y datos&#10;de tela asignada" edge="1" parent="1" source="a0" target="p0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.35;exitY=1;entryX=0.2;entryY=0;" flow_id="F01" actor="0" direction="in">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="158.0" y="400" />
+              <mxPoint x="750.0" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="F02&#10;OT habilitada y resumen&#10;de producción" edge="1" parent="1" source="p0" target="a0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.4;exitY=0;entryX=0.65;entryY=1;" flow_id="F02" actor="0" direction="out">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="850.0" y="330" />
+              <mxPoint x="242.0" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="F03&#10;Registro de corte y&#10;merma" edge="1" parent="1" source="a1" target="p0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.35;exitY=1;entryX=0.6;entryY=0;" flow_id="F03" actor="1" direction="in">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1518.0" y="330" />
+              <mxPoint x="950.0" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="F04&#10;Datos de corte y estado&#10;del registro" edge="1" parent="1" source="p0" target="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.8;exitY=0;entryX=0.65;entryY=1;" flow_id="F04" actor="1" direction="out">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1050.0" y="400" />
+              <mxPoint x="1602.0" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="F05&#10;Registro de avance y&#10;tiempo por lote" edge="1" parent="1" source="a2" target="p0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.35;exitY=0;entryX=0.2;entryY=1;" flow_id="F05" actor="2" direction="in">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="158.0" y="820" />
+              <mxPoint x="750.0" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="F06&#10;Datos de paquete&#10;habilitado y estado de&#10;confección" edge="1" parent="1" source="p0" target="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.4;exitY=1;entryX=0.65;entryY=0;" flow_id="F06" actor="2" direction="out">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="850.0" y="890" />
+              <mxPoint x="242.0" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="F07&#10;Resultado de inspección&#10;y defectos" edge="1" parent="1" source="a3" target="p0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.35;exitY=0;entryX=0.6;entryY=1;" flow_id="F07" actor="3" direction="in">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1518.0" y="890" />
+              <mxPoint x="950.0" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="F08&#10;Resumen de calidad y&#10;código de lote" edge="1" parent="1" source="p0" target="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=15;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.8;exitY=1;entryX=0.65;entryY=0;" flow_id="F08" actor="3" direction="out">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1050.0" y="820" />
+              <mxPoint x="1602.0" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" value="Entidades externas al software: roles humanos de la planta. Los materiales físicos no son flujos DFD.&#10;F01-F08 se conservan exactamente en el nivel 0." vertex="1" parent="1" style="text;html=0;fontSize=18;align=left;strokeColor=none;fillColor=none;" kind="node">
+          <mxGeometry as="geometry" x="40" y="1110" width="1700" height="70" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
