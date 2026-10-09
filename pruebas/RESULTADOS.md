@@ -13,7 +13,7 @@ Fecha: 4 de octubre de 2026.
 | DOT | Éxito: SVG generado con Viz.js | `scripts/generacion/generar-dot.js` |
 | Documentos | Éxito: Markdown, CSV, DOCX, XLSX, PDF, PNG y SVG creados y reabiertos | `scripts/validacion/probar-formatos.py` |
 | Integridad del proyecto | Éxito: 0 errores y 0 avisos | `scripts/validacion/validar_proyecto.py` |
-| Seguridad npm | Éxito: 0 vulnerabilidades informadas | `npm audit --audit-level=moderate` |
+| Seguridad npm | Sin vulnerabilidades moderadas o superiores; 5 bajas transitivas en KaTeX/Mermaid | `npm audit --audit-level=moderate` |
 | Material didáctico | Éxito: 22/22, SHA-256 conforme, formatos correctos, 0 duplicados y 0 ilegibles | `scripts/validacion/inventariar_material.py` |
 | GitHub | Éxito: autenticado; repositorio `PRIVATE`, rama predeterminada `main` | `scripts/instalacion/gh-local.ps1 auth status` y `repo view` |
 

@@ -40,6 +40,7 @@ En PowerShell:
 ```
 
 Esto crea `ejercicios/ejercicio-001/` con enunciado, análisis, solución, fuentes, exportados, documentos y validación.
+La carpeta se construye desde `plantillas/ejercicio/` e incluye además `suposiciones.md` y `fuentes.md`. Antes de resolver, complete `plantillas/VALIDACION-EJERCICIO.md`.
 
 ## Instalar herramientas locales
 

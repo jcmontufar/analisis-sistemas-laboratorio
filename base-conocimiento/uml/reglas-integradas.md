@@ -18,5 +18,4 @@ DERCAS exige caso de uso general tras login y uno por flujo; clases en correspon
 
 ## Ejemplos y vacíos
 
-Ejemplos: PNG 11/12 (casos), 15/19 (interacciones), 16 (actividad), 18 (estados), 13 (despliegue). El PNG 11 usa `extend` como enlace a módulos y no debe copiarse sin revisar. Falta un ejemplo académico de clases/componentes. “UML de Contexto” es ambiguo y requiere aclaración docente.
-
+Ejemplos: PNG 11/12 (casos), 15/19 (interacciones), 16 (actividad), 18 (estados), 13 (despliegue). El PNG 11 usa `<<extends>>` como enlace a módulos; véase `casos-uso-notacion.md`. Falta un ejemplo académico de clases/componentes. “UML de Contexto” permanece `AMBIGUO`; véase `uml-de-contexto.md`.

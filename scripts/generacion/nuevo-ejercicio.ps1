@@ -8,24 +8,21 @@ $ErrorActionPreference = 'Stop'
 $raiz = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
 $nombre = 'ejercicio-{0:D3}' -f $Numero
 $destino = Join-Path $raiz "ejercicios\$nombre"
-if (Test-Path $destino) { throw "Ya existe $destino; no se sobrescribió." }
+$plantilla = Join-Path $raiz 'plantillas\ejercicio'
+
+if (Test-Path -LiteralPath $destino) { throw "Ya existe $destino; no se sobrescribió." }
+if (-not (Test-Path -LiteralPath $plantilla)) { throw "No existe la plantilla maestra: $plantilla" }
 
 @('diagramas\fuentes', 'diagramas\exportados', 'documentos') | ForEach-Object {
     New-Item -ItemType Directory -Path (Join-Path $destino $_) -Force | Out-Null
 }
 
-$archivos = @{
-    'enunciado.md' = "# Enunciado original`n`n[Copiar sin reinterpretar. Indicar origen.]`n"
-    'analisis.md' = "# Análisis`n`n## Hechos`n`n## Actores y entidades`n`n## Procesos y relaciones`n`n## Datos faltantes`n`n## Suposiciones`n"
-    'solucion.md' = "# Solución`n`n[Desarrollo y explicación académica.]`n"
-    'validacion.md' = "# Validación`n`n- [ ] Corresponde al enunciado.`n- [ ] Notación correcta.`n- [ ] DFD balanceados, si aplica.`n- [ ] Actores y relaciones revisados.`n- [ ] Multiplicidades revisadas.`n- [ ] Secuencias coherentes.`n- [ ] Fuente editable disponible.`n- [ ] Exportación completa y legible.`n"
-    'diagramas\fuentes\.gitkeep' = ''
-    'diagramas\exportados\.gitkeep' = ''
-    'documentos\.gitkeep' = ''
+@('enunciado.md', 'analisis.md', 'suposiciones.md', 'fuentes.md', 'solucion.md', 'validacion.md') | ForEach-Object {
+    Copy-Item -LiteralPath (Join-Path $plantilla $_) -Destination (Join-Path $destino $_)
 }
 
-foreach ($relativo in $archivos.Keys) {
-    $ruta = Join-Path $destino $relativo
-    Set-Content -LiteralPath $ruta -Value $archivos[$relativo] -Encoding utf8NoBOM
+@('diagramas\fuentes\.gitkeep', 'diagramas\exportados\.gitkeep', 'documentos\.gitkeep') | ForEach-Object {
+    New-Item -ItemType File -Path (Join-Path $destino $_) -Force | Out-Null
 }
-Write-Output "Creado: $destino"
+
+Write-Output "Creado desde plantilla maestra: $destino"

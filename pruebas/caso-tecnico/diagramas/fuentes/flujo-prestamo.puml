@@ -1,0 +1,8 @@
+@startuml
+title CASO_TECNICO_DE_PRUEBA — Registro mínimo de préstamo
+start
+:Recibir solicitud de préstamo;
+:Registrar préstamo;
+stop
+@enduml
+

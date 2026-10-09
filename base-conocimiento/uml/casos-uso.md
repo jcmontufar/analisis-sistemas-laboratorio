@@ -10,6 +10,8 @@ Modelo del valor observable que el sistema ofrece a actores externos, dentro de 
 
 Actores, casos, asociaciones, límite, generalización y dependencias `include`/`extend`. `include` apunta al comportamiento obligatorio reutilizado; `extend` apunta al caso base.
 
+Estas son convenciones `TECNICO_COMPLEMENTARIO`. La comparación con los dos ejemplos académicos está en `casos-uso-notacion.md`.
+
 ## Ejemplo disponible
 
 `plantillas/uml/ejemplo-casos-uso.puml`.
@@ -20,4 +22,4 @@ Modelar pantallas, llamar “actor” a una parte interna o invertir dependencia
 
 ## Fuente académica
 
-Instrucciones DERCAS, “Anexos”; PNG 11 y 12 como ejemplos con revisión crítica.
+Instrucciones DERCAS, línea 43; PNG 11 y 12 como `EJEMPLO_ACADEMICO`.

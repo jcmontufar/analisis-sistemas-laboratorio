@@ -14,16 +14,16 @@ Inventario verificado el 4 de octubre de 2026. Los 22 archivos se conservaron si
 | `08-TablaDeRequerimientos.png` | PNG | Ejemplo de tabla RF/RNF | Legible; imagen completa |
 | `09-DescripcionDelProceso.png` | PNG | Descripción narrativa de procesos | Legible; imagen completa |
 | `10-DescripcionProceso.png` | PNG | Listado jerárquico de pasos y responsables | Legible; imagen completa |
-| `11-CasosDeUsoAccesoAlSistema.png` | PNG | Acceso y módulos en casos de uso | Legible; revisar semántica de `extend` |
+| `11-CasosDeUsoAccesoAlSistema.png` | PNG | Acceso y módulos en casos de uso | Legible; `<<extends>>` difiere de UML estándar, documentado |
 | `11-InstruccionesDeRevisionDERCAS.md` | Markdown | Rúbrica detallada DERCAS | Texto UTF-8 legible; secciones temáticas |
 | `11-The_DERCAS_Software.pptx` | PPTX, 11 diap. | Síntesis de entregables DERCAS | Legible, sin texto nativo; diap. 1–11 |
 | `12-CasosDeUsoProceso.png` | PNG | Caso de uso por rol/proceso | Legible; revisar direcciones `include/extend` |
 | `12-StackDeTecnologias.png` | PNG | Arquitectura Azure, frontend, backend y datos | Legible; imagen completa |
 | `13-DiagramaUMLDespliegue.png` | PNG | Nodos, artefactos y comunicaciones | Legible; imagen completa |
-| `14-DFDContexto.png` | PNG | Proceso 0, entidades y flujos | Legible; “Cliente” aparece dos veces |
+| `14-DFDContexto.png` | PNG | Proceso 0, entidades y flujos | Legible; “Cliente” repetido, probablemente por diseño (`INFERENCIA`) |
 | `15-DiagramaUMLSecuenciaColaboracion.png` | PNG | Secuencia y colaboración equivalentes | Legible; imagen completa |
 | `16-DiagramaDeActividades.png` | PNG | Actividades con carriles | Legible; imagen completa |
-| `17-DiagramaDFDNivel0.png` | PNG | Procesos, entidades, almacenes y flujos | Legible; rótulos densos, revisión humana recomendada |
+| `17-DiagramaDFDNivel0.png` | PNG | Procesos, entidades, almacenes y flujos | Legible; no corresponde al dominio del PNG 14; rótulos densos |
 | `18-DiagramaEstados.png` | PNG | Estados de tratamientos/odontograma | Legible; revisar eventos/guardas |
 | `19-DiagramaSecuencia.png` | PNG | Secuencia de contratación y permisos | Legible; 27 mensajes |
 

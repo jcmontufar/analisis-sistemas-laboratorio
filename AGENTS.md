@@ -6,18 +6,20 @@ Este repositorio es un laboratorio académico de análisis y diseño de sistemas
 
 ## Flujo obligatorio
 
-1. Leer primero el enunciado original del ejercicio y registrar sus entregables.
-2. Identificar las fuentes académicas pertinentes mediante `material-didactico/indice.md`; citar archivo y página, diapositiva o sección.
-3. Consultar las reglas y matrices pertinentes de `base-conocimiento/`.
-4. Separar reglas explícitas del catedrático de convenciones técnicas complementarias.
-5. Elaborar el análisis lógico en `analisis.md` antes de dibujar; registrar datos faltantes y suposiciones mínimas sin inventar información que cambie la solución.
-6. Mantener coherencia de nombres, actores, procesos, datos y relaciones entre artefactos.
-7. Generar y conservar la fuente editable en `diagramas/fuentes/`.
-8. Exportar diagramas completos y legibles a SVG y PNG en `diagramas/exportados/`, cuando corresponda.
-9. Verificar sintaxis, estructura, referencias cruzadas y, en proporción al riesgo, el renderizado.
-10. Registrar en `validacion.md` qué se comprobó automáticamente, qué requiere revisión humana y toda limitación.
-11. Conservar en la carpeta del ejercicio el enunciado, análisis, solución, validación, fuentes, exportaciones y documentos.
-12. Ejecutar `python scripts/validacion/validar_proyecto.py` antes de entregar.
+1. Leer el enunciado original y conservarlo sin reinterpretar.
+2. Identificar el tipo de artefacto solicitado.
+3. Consultar su matriz en `base-conocimiento/criterios-evaluacion/README.md`.
+4. Consultar las fuentes académicas pertinentes mediante `material-didactico/indice.md`.
+5. Diferenciar `ACADEMICO_EXPLICITO`, `EJEMPLO_ACADEMICO`, `TECNICO_COMPLEMENTARIO`, `INFERENCIA` y `AMBIGUO`.
+6. Detectar y registrar ambigüedades y datos faltantes.
+7. Analizar el problema antes de dibujar, usando `plantillas/VALIDACION-EJERCICIO.md`.
+8. Generar y conservar la fuente editable en `diagramas/fuentes/`.
+9. Renderizar SVG y PNG completos y legibles en `diagramas/exportados/`, cuando corresponda.
+10. Validar sintaxis, estructura, referencias y renderizado sin confundirlos con corrección académica.
+11. Revisar consistencia con artefactos dependientes mediante `base-conocimiento/MAPA-DEPENDENCIAS.md`.
+12. Documentar cada suposición en `suposiciones.md` y las limitaciones en `validacion.md`.
+
+Está prohibido generar directamente un diagrama sin análisis previo.
 
 ## Reglas generales de modelado
 
@@ -68,9 +70,11 @@ Este repositorio es un laboratorio académico de análisis y diseño de sistemas
 
 - El enunciado particular gobierna el ejercicio.
 - Después se aplican las exigencias académicas citadas en la base de conocimiento.
+- Los requisitos DERCAS solo rigen un ejercicio individual cuando el enunciado los incorpora.
 - Las convenciones técnicas complementarias llenan vacíos sin atribuirse al catedrático.
 - Un PNG de ejemplo puede contener defectos: no convertir su apariencia en regla sin respaldo textual.
 - Ante una contradicción material, documentarla y solicitar criterio; no alterar originales ni ocultar la diferencia.
+- “UML de Contexto” permanece ambiguo y no se sustituye automáticamente por otro artefacto.
 
 ## Seguridad y Git
 

@@ -17,6 +17,7 @@ REQUERIDOS = [
     "plantillas/factibilidad", "plantillas/cronograma", "plantillas/procesos", "plantillas/flujo",
     "plantillas/arquitectura", "plantillas/dfd", "plantillas/entidad-relacion",
     "plantillas/diccionario-datos", "plantillas/prototipo", "plantillas/uml",
+    "plantillas/VALIDACION-EJERCICIO.md", "plantillas/ejercicio",
     "prompts/generacion", "prompts/revision", "scripts/instalacion", "scripts/generacion",
     "scripts/validacion", "configuracion/herramientas.md",
 ]
@@ -82,9 +83,25 @@ def validar_enlaces_markdown():
 
 def validar_ejercicios():
     for carpeta in (RAIZ / "ejercicios").glob("ejercicio-[0-9][0-9][0-9]"):
-        for requerido in ("enunciado.md", "analisis.md", "solucion.md", "validacion.md", "diagramas/fuentes", "diagramas/exportados", "documentos"):
+        for requerido in ("enunciado.md", "analisis.md", "suposiciones.md", "fuentes.md", "solucion.md", "validacion.md", "diagramas/fuentes", "diagramas/exportados", "documentos"):
             if not (carpeta / requerido).exists():
                 ERRORES.append(f"Ejercicio incompleto {carpeta.name}: falta {requerido}")
+
+
+def validar_caso_tecnico():
+    carpeta = RAIZ / "pruebas" / "caso-tecnico"
+    requeridos = (
+        "README.md", "enunciado.md", "analisis.md", "fuentes.md", "validacion.md",
+        "diagramas/fuentes/flujo-prestamo.puml",
+        "diagramas/exportados/flujo-prestamo.svg",
+        "diagramas/exportados/flujo-prestamo.png",
+    )
+    for requerido in requeridos:
+        if not (carpeta / requerido).exists():
+            ERRORES.append(f"Caso técnico incompleto: falta {requerido}")
+    marcador = carpeta / "README.md"
+    if marcador.exists() and "CASO_TECNICO_DE_PRUEBA" not in marcador.read_text(encoding="utf-8"):
+        ERRORES.append("El caso técnico no está identificado como CASO_TECNICO_DE_PRUEBA")
 
 
 def main():
@@ -95,6 +112,7 @@ def main():
     validar_dbml()
     validar_enlaces_markdown()
     validar_ejercicios()
+    validar_caso_tecnico()
     print(f"Validación automática: {len(ERRORES)} error(es), {len(AVISOS)} aviso(s).")
     for item in ERRORES:
         print(f"ERROR: {item}")
